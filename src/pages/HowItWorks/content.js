@@ -1,110 +1,110 @@
 export default {
   banner: {
-    title: 'Autonomous, Decentralised, Encrypted.',
+    title: 'Автономный, Децентрализованный, Зашифрованный.',
     aside: {
-      para: 'Powered by the spare capacity of everyday computers, SAFE replaces the vulnerable structure of the existing Web with a decentralised, autonomous network. One that is secure, and accessible to everyone.',
+      para: 'Работая на резервных мощностях обычных компьютеров, SAFE заменяет уязвимую структуру существующей сети на децентрализованную автономную сеть. Надежно и доступно каждому.',
       CTA: {
-        name: `Here's how it works`,
+        name: `Вот как это работает`,
         url: '/faq/#what-is-a-vault'
       }
     },
   },
   topics: [
     {
-      name: 'Introduction',
+      name: 'Введение',
       desc: [
         {
-          title: 'Getting to grips with the SAFE Network',
+          title: 'Начало работы с SAFE Network',
           para: [
-            'If you don’t understand what a new decentralised web might mean, you’re far from alone. But once the benefits of a new web built on the SAFE Network become clear—permanent data, never again stored by untrustworthy and hackable third parties that you alone can access at any time from anywhere around the globe—the value becomes clearer. There’s a huge amount of work required to build a system that can deliver on such promises. So to get you started, here’s a few pointers about some of the technology that lies under the hood.'
+            'Если вы не понимаете, что может означать новая децентрализованная сеть, вы не сами. Но как только преимущества новой сети, построенной на SAFE Network становятся очевидными - постоянные данные, которые никогда не будут храниться ненадежными и взломанными третьими лицами, к которым только вы один можете получить доступ в любое время из любой точки земного шара, - ценность становится более ясной. Для создания системы, способной выполнить такие обещания, требуется огромный объем работы. Итак, для начала, вот несколько советов о некоторых технологиях, которые в основе.'
           ]
         }
       ]
     }, {
-      name: 'Browsing',
+      name: 'Просмотр',
       desc: [
         {
-          title: 'All human knowledge, available to all humanity',
+          title: 'Все человеческие знания, доступные всему человечеству.',
           para: [
-            `Perhaps you only want to view content on the Network. For many, that may seem no different to the Web today. But for the 1.5 billion people around the world blocked from sites like Wikipedia, it's a giant leap forward. And all they need to do is download the SAFE browser—the gateway to the new Web—accessible by anyone, anywhere.`,
-            'Browsing SAFE is private, anonymous, and secure—free from tracking by corporate or government interests. The choices you make are yours alone. No more having The Invisible Other looking over your shoulder.'
+            `Возможно, вы хотите только просматривать контент в сети. Для многих это сегодня может показаться ничем не отличающимся от сегодняшнего Интернета. Но для 1,5 миллиарда людей по всему миру, заблокированных от таких сайтов, как Википедия, это гигантский скачок вперед. И все, что им нужно сделать, это загрузить браузер SAFE - ворота в новую сеть, доступный любому, где угодно.`,
+            'Просмотр в SAFE полностью конфиденциально, анонимно и безопасно, без отслеживания корпоративными или государственными структурами. Выбор, который вы делаете, остается за вами. Больше не нужно быть в постоянном страхе что кто-то подсматривает.'
           ]
         }
       ],
       aside: {
         position: 1,
-        para: 'Want to try the SAFE Network, and help build the future of the Internet?',
+        para: 'Хотите попробовать SAFE Network и помочь построить будущее Интернета?',
         CTA: {
-          name: 'Get Involved',
+          name: 'Участвовать',
           url: '/get-involved/'
         }
       }
     }, {
-      name: 'Storing Data',
+      name: 'Хранение данных',
       desc: [
         {
-          title: 'Pay once, securely store forever',
+          title: 'Платишь один раз, надёжно сохраняешь навсегда',
           para: [
-            `You're likely to want to store data on the Network. Why? Because in return for a very small one-time Safecoin payment, your data will then be stored forever, encrypted and accessible anywhere in the world and only by you—unless you choose to share it.`
+            `Вы, вероятно, захотите хранить данные в сети. Почему? Потому что в обмен на очень маленький одноразовый платеж Safecoin-ом, ваши данные будут храниться вечно, зашифрованы и доступны в любой точке мира и только вам - если только вы сами не решите поделиться ими.`
           ],
-          quote: `"Your credentials can't be stolen, because at no point are they ever stored on the Network"`
+          quote: `"Ваши данные не могут быть украдены, потому что они никогда не хранятся в сети"`
         }, {
-          para: `The Network is permissionless. That means you don't need to apply to a third party to take part—and, crucially, no-one can stop you. This happens  because the SAFE Network has Self-Authentication. It's the only decentralised Network in the world that lets someone securely and anonymously create an account and log in without needing a third party to manage the login process or to store and manage users' credentials. That means your credentials can't be stolen, because at no point are they ever stored on the Network itself.`
+          para: `Сеть не нуждается в каких-либо разрешений. Это означает, что вам не нужно обращаться к третьей стороне, чтобы принять участие, и, что самое важное, никто не может остановить вас. Это происходит потому, что SAFE Network имеет само-аутентификацию. Это единственная децентрализованная сеть в мире, которая позволяет кому-то безопасно и анонимно создать учетную запись и войти в систему, не нуждаясь в третьей стороне для управления процессом входа в систему или для хранения и управления учетными данными пользователей. Это означает, что ваши учетные данные не могут быть украдены, потому что они никогда не хранятся в самой сети.`
         }, {
-          title: 'Keeping your data private',
+          title: 'Сохранение ваших данных надежно и в тайне',
           para: [
-            `Next, let's talk encryption. Imagine you want to store a photo. That data is protected by a number of layers of encryption. Your photo starts by being broken into pieces which are then encrypted with the other parts of that same file. This 'Self-Encryption' happens before the data ever hits the Network. So, unless you choose to override it, none of your data touches the Network unless it is encrypted. And it’s designed so that you're the only one that ever holds the key.`,
-            `This is a very different approach to blockchain-based storage platforms which often secure just the pointer that shows where the data is stored. With data stored elsewhere, you can prove that data hasn’t been tampered with. But it doesn't protect the data itself. The SAFE Network has a different approach altogether. The data itself is encrypted and stored on the Network. That means no data stores to protect elsewhere.`
+            `Далее поговорим о шифровании. Представьте, что вы хотите сохранить фотографию. Эти данные защищены несколькими уровнями шифрования. Ваша фотография разбивается на части, которые затем шифруются другими частями того же файла. Это «самошифрование» происходит до того, как данные попадают в сеть. Таким образом, если вы не решите пере-сохранить или исправить её, никакие данные не загрузятся в Сеть, если только она не зашифрована. И он спроектирован так, что вы единственный, кто имеет ключ.`,
+            `Это совершенно другой подход к платформам хранения на основе блокчейна, который часто защищает только указатель, который показывает, где хранятся данные. С данными, хранящимися в другом месте, вы можете доказать, что данные не были подделаны. Но это не защищает сами данные. У SAFE Network совершенно другой подход. Сами данные зашифрованы и хранятся в сети. Это означает, что нет хранилищ данных для защиты в другом месте.`
           ]
         }
       ],
     }, {
-      name: 'Where Is Data Stored?',
+      name: 'Где хранятся данные?',
       desc: [
         {
-          title: 'Behold, The Serverless Internet',
+          title: 'Вот, бессерверный интернет',
           para: [
-            'The Web is fragile today partly because data is stored in central locations. These become targets for hackers, thieves and data harvesters, or anyone else who wants to snoop around your personal data.',
-            'The SAFE Network doesn’t have these centralised servers. It has no single point which can be attacked, hacked or snooped upon. All uploaded data is broken into chunks, encrypted, dispersed across the Network, and continually moved between computers.',
-            'So how could an attacker search for your photo?  Without reading them, he’d have to know  which encrypted chunks made up any one file; where each piece was stored; control a number of computers that has responsibility for managing each of those different locations on the Network at any one point in time; and then somehow break the encryption (with no password!).',
-            `And that's a simplification. It's actually much harder than that. But that gives you a feel for just how secure data is on the SAFE Network. Once you take on board that it's the Network itself that makes decisions autonomously about locations and who does what, the challenge facing any attacker becomes even clearer.`
+            'Сегодняшний Интернет уязвим, потому что данные хранятся в центральных точках. Они становятся мишенями для хакеров, воров и сборщиков данных, или для тех, кто хочет узнать ваши личные данные.',
+            'SAFE Network не имеет этих централизованных серверов. У нее нет единой точки, на которую можно напасть, выследить и взломать. Все загруженные данные разбиваются на куски, шифруются, рассредоточиваются по сети и постоянно перемещаются между компьютерами.',
+            'Как же злоумышленник может найти вашу фотографию? Не читая их, он должен был бы знать, какие зашифрованные фрагменты составляет каждый один файл; где они все хранились и хранятся; контролировать количество компьютеров, которые несут ответственность за управление каждым из этих разных мест в сети в любой момент времени; а потом как-то всё это расшифровать (без пароля!).',
+            `И это упрощенно. На самом деле это намного сложнее. Но это дает вам представление о том, насколько безопасны данные в SAFE Network. Как только вы поймете, что сеть самостоятельно принимает решения о местонахождении и кто что делает, задача, стоящая перед любым злоумышленником, становится ещё запутанней.`
           ]
         }
       ],
       aside: {
         position: 3,
-        title: 'When will it be finished?',
-        para: 'We’re at the dawn of a new Web, and the final pieces of the SAFE Network are being put in place.',
+        title: 'Когда это будет готово?',
+        para: 'Мы находимся на заре новой сети, и готовимся к выпуску последнего этапа SAFE Network.',
         CTA: {
-          name: 'See the Roadmap',
+          name: 'Смотрите план действий',
           url: '/roadmap/'
         }
       }
     }, {
-      name: 'Who Stores Your Data?',
+      name: 'Кто хранит ваши данные?',
       desc: [
         {
-          title: 'The Web hosted by everyone, controlled by no-one',
+          title: 'Сеть, размещена всеми, и никто ей не управляет',
           para: [
-            'With no centralised storage, data is instead stored in Vaults. People download free Vault software to their home computers which tells the Network that they’re happy to take part. By providing storage and bandwidth to support the Network, you can get rewarded in Safecoin, the cryptocurrency that powers the Network.',
-            'The Network just makes use of the space you’ve offered and asks you to manage whichever chunks of encrypted data it needs to ensure the system is safe and resilient. The key point here is that no-one (either computers or Network) can read this data. Each chunk of encrypted data is managed by its own Group. The Network decides which computers should be members of which Groups and this changes frequently. And at no time can a person who runs a Vault read any of the data that his computer is storing.',
-            'By running a Vault, your computer races to return any data that is requested by its owner. The rewards paid out by the system will be varied according the Network which varies the price of Safecoin in order to balance the Network in such a way that it consistently maintains around 30% of Vaults unused.'
+            'Без централизованного хранилища данные хранятся в Vaults. Люди загружают бесплатное программное обеспечение Vault на свои домашние компьютеры, тем самым дают Сети своё согласие, что они принимают участие. Предоставляя хранилище и пропускную способность для поддержки сети, вы можете получить вознаграждение в Safecoin, криптовалюте, которая питает сеть.',
+            'Сеть просто использует пространство, которое вы предлагаете, и управляет любыми кусками зашифрованных данных, которые необходимы для обеспечения безопасности и стабильности системы. Ключевым моментом здесь является то, что никто (ни компьютеры ни сеть) не может прочитать эти данные. Каждый кусок зашифрованных данных управляется своей собственной группой. Сеть решает, какие компьютеры должны входить в какие группы, и это постоянно меняется. И человек с запущенным Vault, никогда и не при каких обстоятельствах не сможет прочитать какие-либо данные, хранящиеся на его компьютере.',
+            'Запустив Vault, ваш компьютер может вернуть любые данные, запрошенные его владельцем. Награды, выплачиваемые системой, будут варьироваться в зависимости от сети, которая варьируется ценой Safecoin-ом, чтобы сбалансировать сеть таким образом, чтобы она постоянно поддерживала около 30% неиспользованных хранилищ (Vaults).'
           ]
         }
       ]
     }, {
-      name: 'Network Architecture',
+      name: 'Сетевая архитектура',
       desc: [
         {
-          title: 'Anatomy of an Autonomous Network',
+          title: 'Анатомия автономной сети',
           para: [
-            'The SAFE Network is self-managing. It manages how computers can act on the Network in real-time, changing roles and responsibilities dynamically in response to real-time changes without any input from humans or businesses.',
-            'The Network is built on a foundation of open source software that allows computers to connect directly to each other, anywhere around the world. The Routing layer sits above this and sets the rules of the Network. This means that computers will act in a certain way that guarantees the Network will function efficiently without a centralised administrator.',
-            'These rules ensure that computers reach agreement on what is and isn’t allowed, and the order in which they happen. Decisions are made by computers in standalone Sections that have a history of good behaviour and thanks to a cutting-edge DAG-based consensus algorithm called PARSEC, the Network is guaranteed to reach agreement despite vast numbers of events taking place simultaneously every second around the world.'
+            'SAFE Network является самоуправляемой. Она управляет тем, как компьютеры могут действовать в сети в режиме реального времени, динамически изменяя роли и обязанности в ответ на изменения в реальном времени без какого-либо участия людей или компаний.',
+            'Сеть построена на основе программного обеспечения с открытым исходным кодом, которое позволяет компьютерам напрямую подключаться друг к другу в любой точке мира. Трафик находится над этим и устанавливает правила сети. Это означает, что компьютеры будут работать определенным образом, что гарантирует эффективную работу Сети без централизованного администратора.',
+            'Эти правила гарантируют, что компьютеры достигнут соглашения о том, что разрешено, а что нет, и порядке, в котором всё будет происходить. Решения принимаются компьютерами в отдельных секциях, которые имеют историю хорошего поведения, и благодаря передовому алгоритму консенсуса на основе DAG под названием PARSEC, сеть гарантированно достигнет соглашения, несмотря на огромное количество событий, происходящих одновременно каждую секунду во всем мире.'
           ]
         }, {
-          title: 'Global Communication, Global Scale',
-          para: 'Whilst Sections stand alone, the Network is designed to enable trusted communications. It does this by ensuring that any contact between unknown computers is accompanied by cryptographic proof that every computer involved is a valid part of the Network. With Secure Message Relay comes Data Chains, a novel way which ensures that vast quantities of data can be passed reliably and securely between different nodes that have never known each other previously. All of this is made possible by the key design decision that we started with: all data is stored on the Network. Encrypted and ready to scale the globe from Day One.'
+          title: 'Глобальное общение, глобальный масштаб',
+          para: 'Несмотря на то, что Секции автономны, Сеть предназначена для обеспечения надежной связи. Это достигается за счет того, что любой контакт между неизвестными компьютерами сопровождается криптографическим доказательством того, что каждый задействованный компьютер действительно является частью сети. С Secure Message Relay поставляется Data Chains , новый способ, который гарантирует, что огромные объемы данных могут надежно и безопасно передаваться между различными узлами, которые никогда ранее не знали друг друга. Все это стало возможным благодаря основному конструктивному решению, с которого мы начали: все данные хранятся в сети. Зашифрованы и готовы к распространению по всему миру.'
         }
       ]
     }
