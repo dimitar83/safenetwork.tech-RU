@@ -1,28 +1,28 @@
 export default {
   banner: {
-    pageTitle: 'The ~~Im~~Possible Network',
-    pageDesc: `14 years of research and development is coming to fruition as we put together the final building blocks of what some said was impossible: Secure Access For Everyone.`,
+    pageTitle: '~~Не~~Возможная Сеть',
+    pageDesc: `14 лет исследований и разработок приносят свои плоды, поскольку мы собрали окончательные блоки того, что, по мнению некоторых, было невозможно: безопасный доступ для всех.`,
     latestUpdate: {
-      overline: 'Latest Update',
-      date: 'March 26, 2020',
-      title: 'Baby Fleming iteration 3',
-      para: `The Baby Fleming release is about iterating from a single vault network into a multiple vaults (single-section) network. Iteration 3 has been updated to use the latest version of the Quinn library (via quic-p2p).`,
+      overline: 'ПОСЛЕДНИЕ ОБНОВЛЕНИЯ',
+      date: '29 августа 2019 г.',
+      title: 'Хранилище - Фаза 1',
+      para: `Последняя часть головоломки завершена, и теперь у нас есть SAFE CLI, SAFE Client Libs, SAFE Хранилище и SAFE Браузер.`,
        CTA: {
-         name: 'SAFE Network Forum',
+         name: 'SAFE Network Форум',
          url: 'https://safenetforum.org/t/safe-network-dev-update-march-26-2020/31360'
        }
     }
   },
   subscribe: {
-    title: 'Subscribe for updates:'
+    title: 'Подписаться на обновления:'
   },
   releases: {
     release1: {
-      overline: 'Live Now',
-      title: 'Baby Fleming Network',
+      overline: 'Сейчас',
+      title: 'Хранилище - Фаза 1',
       para:[
-        `From a user perspective, the exact same type of operations and use cases as Vaults Phase 1 are being supported by Baby Fleming, i.e. Test Safecoin, wallets, files, NRS names, SAFE sites, etc.`,
-        'We’ve set up a [public shared section](https://safenetforum.org/t/baby-fleming-public-shared-section/31377) for you to play with. You can also set up your own local network. See the [CLI User Guide](https://github.com/maidsafe/safe-api/blob/master/safe-cli/README.md#download) for full instructions.'
+        `Этот выпуск Хранилище - Фаза 1 предназначен главным образом для демонстрации сетевых функций потребителям (люди, использующие Сеть для просмотра, обмена данными и т. д.) и Создатели (разработчики или те кто публикуют контент). Это позволяет пользователям тестировать такие функции, как SAFE CLI и SAFE Client Libs, а также введение новых типов данных.`,
+        'Это просто в использовании. Просто скачайте бинарный файл Хранилище, который будет работать локально на вашем компьютере. Подробности и ссылки можно найти в этом форуме.'
       ],
       // accordion: {
       //   header: [
@@ -35,113 +35,113 @@ export default {
       // }
     },
     release2: {
-      overline: 'Upcoming Milestone',
-      title: 'SAFE Fleming Network',
-      para: ['The next major milestone for the SAFE Network. Whilst the Baby Fleming Network will continue to function, this will be a standalone Network that will enable individuals to run Vaults - decentralised storage from home computers. The release of Fleming will be notable for many reasons, not least the fact that with data storage, the Network will now also contain Test Safecoin.'],
+      overline: 'ПРЕДСТОЯЩИЙ ЭТАП',
+      title: 'SAFE Network Флеминга',
+      para: ['Следующий важный этап для SAFE Network. Хотя сеть общего хранилища будет продолжать функционировать, это будет автономная сеть, которая позволит отдельным пользователям запускать Хранилища - децентрализованное хранилище с домашних компьютеров. Выпуск Флеминга будет примечательным по многим причинам, не в последнюю очередь из-за того, что благодаря хранилищу данных сеть теперь будет содержать Test Safecoin.'],
       accordion: {
         header: [
-          'Fleming Feature',
-          'Description',
-          'Status'
+          'Флеминг',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
-            feature: 'Self-Authentication',
-            desc: 'The ability to log into a decentralised network without the permission or existence of a third party',
-            status: 'Complete',
+            feature: 'Само-засвидетельствование',
+            desc: 'Возможность входа в децентрализованную сеть без разрешения или наличия третьей стороны',
+            status: 'Законченный',
             para: [
-              'MaidSafe invented the technology that lets someone log into a decentralised network securely without requiring the involvement of a third party. The Shared Vault Network is the only place in the world today that you can see this in action.'
+              'MaidSafe изобрели технологию, которая позволяет кому-либо безопасно входить в децентрализованную сеть, не требуя участия третьей стороны. Сеть Shared Vault - единственное место в мире, где вы можете увидеть это в действии.'
             ],
             // CTA: {
             //   name: 'Read More',
             //   url: 'https://safenetwork.tech/roadmap/#self-authentication'
             // },
           }, {
-            feature: 'Self-Encryption',
-            desc: 'Data is encrypted on your computer before being stored on the Network: no keys or passwords ever leave your machine',
-            status: 'Complete',
+            feature: 'Само-шифрования',
+            desc: 'Данные зашифровываются на вашем компьютере перед сохранением в сети: никакие ключи или пароли никогда не покидают ваш компьютер.',
+            status: 'Законченный',
             para: [
-              'Invented by MaidSafe, this is the process by which any file to be stored in the Network is first broken into chunks, hashed, and then encrypted. These chunks are then themselves encrypted using the hash of another chunk from the same file.'
+              'Изобретенный MaidSafe-ом, это процесс, с помощью которого любой файл, который будет храниться в сети, сначала разбивается на блоки, хэшируется, а затем шифруется. Эти блоки затем сами шифруются с использованием хеша другого блока из того же файла.'
             ],
             video: {
               url: 'https://s3.eu-west-2.amazonaws.com/ms-marketing/website-videos/Self+Encryption+on+the+SAFE+Network.mp4',
-              caption: 'Self-Encryption explained'
+              caption: 'Объясние Самошифрования'
             }
           }, {
-            feature: 'Disjoint Sections',
-            desc: 'Otherwise known as Sharding, this allows the Network to scale by splitting responsibilities for specific Network functions.',
-            status: 'Complete',
+            feature: 'Непересекающиеся разделы',
+            desc: 'В противном случае, известном как шардинг, это позволяет масштабировать сеть, разделяя обязанности для определенных функций сети.',
+            status: 'Законченный',
             para: [
-              'Ensures that the Network can scale by managing the responsibilities and locations of each node without requiring any human intervention. This also acts as a security measure to ensure that an attacker cannot choose their location or responsibilities.'
+              'Гарантирует, что Сеть может масштабироваться, управляя обязанностями и местоположениями каждого узла, не требуя вмешательства человека. Это также служит мерой безопасности, гарантирующей, что злоумышленник не сможет выбрать свое местоположение или обязанности.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Читать далее',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-6-disjoint-sections/28530'
             },
           }, {
-            feature: 'Message Relay',
-            desc: 'Ensures a message can be sent between nodes in different Disjoint Sections',
-            status: 'Complete',
+            feature: 'Ретрансляция сообщений',
+            desc: 'Гарантирует, что сообщение может быть отправлено между узлами в разных непересекающихся секциях',
+            status: 'Законченный',
             para: [
-              'Ensures that a message can be sent between nodes in different Disjoint Sections. In this early iteration, each message contains signatures of the members of the Disjoint Sections but does not yet verify the signatures themselves.'
+              'Гарантирует, что сообщение может быть отправлено между узлами в разных непересекающихся секциях. На этой ранней итерации каждое сообщение содержит подписи членов непересекающихся разделов, но еще не проверяет сами подписи.'
             ],
           },
           {
             feature: 'PARSEC',
-            desc: 'Asynchronous consensus algorithm',
-            status: 'Complete',
+            desc: 'Алгоритм асинхронного согласия',
+            status: 'Законченный',
             para: [
-              'Ensures that a global decentralised, permissionless Network can reach agreement about events that are permitted and the order in which they are to be recorded. A DAG-based algorithm that achieves the highest standard of security possibile, invented by MaidSafe in such a way that it ensures it is mathematically certain that every part of the Network will reach eventual agreement. In Fleming, we’ll be releasing a highly asynchronous version of PARSEC, with full asynchronicity to come later.'
+              'Гарантирует, что глобальная децентрализованная, не имеющая разрешений Сеть может прийти к соглашению о событиях, которые разрешены, и порядке, в котором они должны записываться. Алгоритм на основе DAG, который обеспечивает высочайший стандарт безопасности, изобретенный MaidSafe-ом таким образом, что он обеспечивает математическую уверенность в том, что каждая часть сети достигнет возможного соглашения. Во Флеминге мы выпустим сильно асинхронную версию ПАРСЕК с полной асинхронностью, которая появится позже.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Читать далее',
               url: 'https://hub.safedev.org/parsec/'
             },
           }, {
-            feature: 'Node Ageing',
-            desc: 'A decentralised system for ranking the behaviour, performance and abilities of nodes on the Network that requires no human intervention.',
-            status: 'Complete',
+            feature: 'Узел старения',
+            desc: 'Децентрализованная система ранжирования поведения, производительности и возможностей узлов в сети, которая не требует вмешательства человека.',
+            status: 'Законченный',
             para: [
-              'Each node on the SAFE Network is given an age by the Network itself. The node age increments every time that a node moves between Disjoint Sections, with only the most senior (Elders) entitled to vote during the PARSEC consensus algorithm.',
-              'Dig into the detail in the RFC, and [join the discussion](https://forum.safedev.org/t/rfc-45-node-ageing/157) on the forum.'
+              'Каждый узел в SAFE Network получает возраст самой сети. Возраст узла увеличивается каждый раз, когда узел перемещается между непересекающимися секциями, и только самые старшие (старейшины) имеют право голосовать во время алгоритма консенсуса ПАРСЕК.',
+              'Покопайтесь в деталях в RFC и [присоединяйтесь к обсуждению](https://forum.safedev.org/t/rfc-45-node-ageing/157) на форуме.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Читать RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0045-node-ageing/0045-node-ageing.md'
             },
           }, {
-            feature: 'Secure Message Delivery',
-            desc: 'Trusted communication between nodes - messages with authenticated source',
-            status: 'Complete',
+            feature: 'Безопасная доставка сообщений',
+            desc: 'Доверенная связь между узлами - сообщения с аутентифицированным источником',
+            status: 'Законченный',
             para: [
-              'Ensures messages are sent and signed in such a way that lets nodes rely on the contents of each message despite having no previous relationship with the sender. This solves a problem faced by many existing blockchain-based projects and is essential when you have a Network that will autonomously move nodes around as required.'
+              'Гарантирует, что сообщения отправляются и подписываются таким образом, что узлы могут полагаться на содержимое каждого сообщения, несмотря на то что ранее не имели никаких отношений с отправителем. Это решает проблему, с которой сталкиваются многие существующие проекты на основе блокчейна, и это важно, когда у вас есть сеть, которая будет автономно перемещать узлы по мере необходимости.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Читать RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0056-secure-message-delivery/0056-secure-message-delivery.md'
             },
           }, {
-            feature: 'Reliable Message Delivery',
-            desc: 'Communication guaranteeing the successful delivery of messages.',
-            status: 'Complete',
+            feature: 'Надежная доставка сообщений',
+            desc: 'Общение, гарантирующее успешную доставку сообщений.',
+            status: 'Законченный',
             para: [
-              'Ensures that all sent messages will be successfully delivered to their destinations, even when some nodes responsible for the delivery are failing.'
+              'Гарантирует, что все отправленные сообщения будут успешно доставлены по назначению, даже если некоторые узлы, ответственные за доставку, не работают.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Читать RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0058-reliable-message-delivery/0058-reliable-message-delivery.md'
             },
           }, {
             feature: 'QUIC-P2P',
-            desc: 'The low-level language which users connecting to SAFE will use for all network communications',
-            status: 'Complete',
+            desc: 'Язык низкого уровня, который пользователи, подключающиеся к SAFE, будет использоваться для всех сетевых коммуникаций',
+            status: 'Законченный',
             para: [
-              'Software that lets computers communicate in an encrypted manner on the SAFE Network. The software provides the infrastructure for messages to travel whilst the Routing layer of the Network sets the rules about which directions those messages can travel in.'
+              'Программное обеспечение, которое позволяет компьютерам общаться в зашифрованном виде в безопасной сети. Программное обеспечение обеспечивает инфраструктуру для перемещения сообщений, в то время как уровень маршрутизации в сети устанавливает правила, по которым эти сообщения могут перемещаться.'
             ],
           }, {
             feature: 'Malice Detection',
             desc: 'Preventing malicious nodes subverting the consensus algorithm, PARSEC',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'The way that nodes identify malicious nodes that are damaging the Network within a Disjoint Section and the mechanism by which they agree to eject that node, or mitigate the risk.'
             ],
@@ -152,7 +152,7 @@ export default {
           }, {
             feature: 'Test Safecoin & Wallet',
             desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'Safecoin is the incentive mechanism that encourages individuals to provide the computing resources that the Network requires: storage, broadband, and CPU resources.',
             ]
@@ -173,7 +173,7 @@ export default {
           }, {
             feature: 'Published and Unpublished Data Types',
             desc: 'Allow the network to store Published and Unpublished data via AppendOnlyData or MutableData types',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'Published data refers to content that is published (made available) for everyone such as websites, blogs, or research papers. For such public content, it becomes important to retain a history of changes. History must not be allowed to be tampered with and the published data must remain forever. Unpublished data is data that is not desired to be made public such as personal data or organisations’ data stored on the network'
             ],
@@ -184,7 +184,7 @@ export default {
           }, {
             feature: 'Unpublished ImmutableData Data Type',
             desc: 'Enhance ImmutableData to make it an unpublished or published, with the difference that unpublished can be deleted',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'There are many times when a user will require to create Immutable Data to store private content. As long as this content is not published (made available for others) this will be deleteable by the data owner only.'
             ],
@@ -324,7 +324,7 @@ export default {
           {
             feature: 'SAFE Browser',
             desc: 'Enhancements to the browser designed specifically to take advantage of the functionalities of the Perpetual Web',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'The SAFE Browser functionality will be extended to incorporate new features that are unique to the Perpetual Web, such as the ability to roll-back through the version history of any SAFE website or asset.'
             ],
@@ -332,7 +332,7 @@ export default {
           {
             feature: 'Mobile Browser',
             desc: 'Mobile version of SAFE browser which is limited to browsing published data from the SAFE Network',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'Enables individuals to access the SAFE Network directly by using a browser on their mobile phone'
             ],
@@ -348,7 +348,7 @@ export default {
           {
             feature: 'SAFE CLI',
             desc: 'An advanced CLI to manage accounts and data',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'A command line tool to manage data on the SAFE Network. It will allow the user to store data on the network and manage accounts, identities, and permissions. This is the tool that the frontend apps and features—such as the Data Manager—will build upon.'
             ],
@@ -356,7 +356,7 @@ export default {
           {
             feature: 'Public Name System',
             desc: 'Content stored should be accessible with human-readable URLs, via a decentralised domain name system: the Public Name System',
-            status: 'Complete',
+            status: 'Законченный',
             para: [
               'A domain name system translates numerical IP addresses into a format that can be read by humans (eg. http//216.58.206.35 resolves to Google.com). The current web relies on a centralised organisation to maintain that record. The SAFE Network requires this process to be outside the control of a single party in order to avoid censorship and repression.'
             ],
@@ -457,7 +457,7 @@ export default {
               {
                 feature: 'XOR URLs',
                 desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
-                status: 'Complete',
+                status: 'Законченный',
                 para: [
                   'Create a system of standardised URL’s on the SAFE Network that are based on the XOR address of the content being referenced. Ensures that individuals can access and locate  data and files in a more user-friendly manner.'
                 ],
