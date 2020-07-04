@@ -40,7 +40,7 @@ export default {
       para: ['Следующий важный этап для SAFE Network. Хотя сеть общего хранилища будет продолжать функционировать, это будет автономная сеть, которая позволит отдельным пользователям запускать Хранилища - децентрализованное хранилище с домашних компьютеров. Выпуск Флеминга будет примечательным по многим причинам, не в последнюю очередь из-за того, что благодаря хранилищу данных сеть теперь будет содержать Test Safecoin.'],
       accordion: {
         header: [
-          'Флеминг',
+          'Флеминг функция',
           'Описание',
           'Статус'
         ],
@@ -139,54 +139,54 @@ export default {
               'Программное обеспечение, которое позволяет компьютерам общаться в зашифрованном виде в безопасной сети. Программное обеспечение обеспечивает инфраструктуру для перемещения сообщений, в то время как уровень маршрутизации в сети устанавливает правила, по которым эти сообщения могут перемещаться.'
             ],
           }, {
-            feature: 'Malice Detection',
-            desc: 'Preventing malicious nodes subverting the consensus algorithm, PARSEC',
+            feature: 'Диагностика злобы',
+            desc: 'Предотвращая вредоносные узлы, подрывающие согласованный алгоритм, PARSEC',
             status: 'Законченный',
             para: [
-              'The way that nodes identify malicious nodes that are damaging the Network within a Disjoint Section and the mechanism by which they agree to eject that node, or mitigate the risk.'
+              'Способ, которым узлы идентифицируют вредоносные узлы, которые повреждают Сеть в непересекающемся разделе, и механизм, с помощью которого они соглашаются удалить этот узел или снизить риск.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Читать RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0050-malice_in_parsec/0050-malice_in_parsec.md'
             }
           }, {
-            feature: 'Test Safecoin & Wallet',
-            desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
+            feature: 'Тест Safecoin-а и кошелька',
+            desc: 'Разрешить сети взимать плату, а пользователю отправлять и получать платежи на кошелек в единицах, называемых Тест Safecoins',
             status: 'Законченный',
             para: [
-              'Safecoin is the incentive mechanism that encourages individuals to provide the computing resources that the Network requires: storage, broadband, and CPU resources.',
+              'Safecoin - это механизм стимулирования, который побуждает людей предоставлять вычислительные ресурсы, которые требуются Сети: хранилище, широкополосный доступ и ресурсы процессора (CPU).',
             ]
           }, {
-            feature: 'Farming',
-            desc: 'The process of providing resource and receiving Safecoin in return',
-            status: 'Development',
+            feature: 'Фермерства',
+            desc: 'Процесс предоставления ресурса и получения Safecoin взамен',
+            status: 'В стадии разработки',
             para: [
-              'Individuals who choose to supply the resources that the Network requires have the opportunity to be rewarded with Safecoin. This work ensures that the Network rewards those who provide it with valuable resources.',
+              'Лица, решившие предоставить ресурсы, необходимые для Сети, имеют возможность получить вознаграждение с помощью Safecoin. Эта работа гарантирует, что Сеть вознаграждает тех, кто предоставляет ей ценные ресурсы.',
             ],
           }, {
-            feature: 'Vaults From Home',
-            desc: 'The ability for anyone to download software and run Vaults from home, creating decentralised storage for the Network',
-            status: 'Development',
+            feature: 'Хранилище из дома',
+            desc: 'Возможность загружать программное обеспечение и запускать Хранилища из дома, создавая децентрализованное Хранилище для сети',
+            status: 'В стадии разработки',
             para: [
-              'Decentralised data storage is a key element of the SAFE Network. This release will enable nodes to participate regardless of the resources they offer.'
+              'Децентрализованное хранение данных является ключевым элементом SAFE Network. Этот выпуск позволит узлам участвовать независимо от ресурсов, которые они предлагают.'
             ],
           }, {
-            feature: 'Published and Unpublished Data Types',
-            desc: 'Allow the network to store Published and Unpublished data via AppendOnlyData or MutableData types',
+            feature: 'Опубликованные и неопубликованные типы данных',
+            desc: 'Разрешить сети хранить опубликованные и неопубликованные данные через типы AppendOnlyData или MutableData',
             status: 'Законченный',
             para: [
-              'Published data refers to content that is published (made available) for everyone such as websites, blogs, or research papers. For such public content, it becomes important to retain a history of changes. History must not be allowed to be tampered with and the published data must remain forever. Unpublished data is data that is not desired to be made public such as personal data or organisations’ data stored on the network'
+              'Опубликованные данные относятся к контенту, которые публикуется (делаются доступными) для всех, например веб-сайты, блоги или исследовательские работы. Для такого публичного контента становится важным сохранить историю изменений. Нельзя допускать вмешательства в историю, и опубликованные данные должны оставаться навсегда. Неопубликованные данные - это данные, которые нежелательно публиковать, такие как личные данные или данные организаций, хранящиеся в сети.'
             ],
             //CTA: {
               //name: 'Read the RFC',
               //url: 'https://github.com/maidsafe/rfcs/blob/master/text/0054-published-and-unpublished-mutable-data/0054-published-and-unpublished-mutable-data.md'
             //},
           }, {
-            feature: 'Unpublished ImmutableData Data Type',
-            desc: 'Enhance ImmutableData to make it an unpublished or published, with the difference that unpublished can be deleted',
+            feature: 'Неопубликованные неизменяемые данные',
+            desc: 'Улучшение неизменных данных, чтобы сделать их неопубликованными или опубликованными, с той разницей, что неопубликованные могут быть удалены.',
             status: 'Законченный',
             para: [
-              'There are many times when a user will require to create Immutable Data to store private content. As long as this content is not published (made available for others) this will be deleteable by the data owner only.'
+              'Часто пользователю требуется создать неизменяемые данные для хранения частного контента. Пока это содержимое не опубликовано (предоставлены для других), оно может быть удалено только владельцем данных.'
             ],
             //CTA: {
               //name: 'Read the RFC',
@@ -197,41 +197,41 @@ export default {
       }
     },
     release3: {
-      overline: 'Next Up',
-      title: 'SAFE Maxwell Network',
-      para: ['The release of SAFE Maxwell builds on top of Fleming and enables the network to upgrade, improves security and sets the ground work for switching Test Safecoin to real Safecoin.'],
+      overline: 'ДАЛЕЕ',
+      title: 'SAFE Network Максвелла',
+      para: ['Выпуск SAFE Максвелла построен на основе Fleming и позволяет модернизировать сеть, повышает безопасность и устанавливает основу для переключения теста SAFE Coin на настоящую SAFEcoin.'],
       accordion: {
         header: [
-          'Maxwell Feature',
-          'Description',
-          'Status'
+          'Максвелл функция',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
-            feature: 'Spam Handling',
-            desc: 'Ability to handle spam attacks',
-            status: 'Concept',
+            feature: 'Обработка спама',
+            desc: 'Возможность обрабатывать спам-атаки',
+            status: 'Концепт',
             para: [
-              'Spam includes nodes attempting to carry out activities that they shouldn’t or valid activities at a scale that is intended to choke the Network. The Network should be able to withstand a reasonable volume of such attacks.'
+              'Спам включает в себя узлы, пытающиеся выполнять действия, которые они не должны выполнять, или действия предназначенные для подавления сети. Сеть должна быть способна противостоять допустимому количеству таких атак.'
             ],
           }, {
-            feature: 'Identity Management',
-            desc: 'Ability for users to create and manage multiple identities for use on the network',
-            status: 'Concept',
+            feature: 'Управление идентификацией',
+            desc: 'Возможность для пользователей создавать и управлять несколькими идентификаторами для использования в сети',
+            status: 'Концепт',
             para: [
-              'Users will be able to create multiple identities in the Network. Each identity can be used as required by the User and each should be independent unless the User explicitly wants to connect them. This helps protect identity and privacy.'
+              'Пользователи смогут создавать несколько идентификаторов в сети. Каждая личность может использоваться в соответствии с требованиями Пользователя, и каждая из них должна быть независимой, если только Пользователь явно не хочет подключить их. Это помогает защитить личность и конфиденциальность.'
             ],
           },
           {
-            feature: 'Upgrades',
-            desc: 'The ability for the Network to upgrade itself, with no harm caused',
-            status: 'Concept',
+            feature: 'Обновления',
+            desc: 'Возможность для Сети обновлять себя без причинения вреда',
+            status: 'Концепт',
             para: [
-              'The Network will have the ability to upgrade itself in order to allow features and improvements to disseminate throughout the Network. The upgrades must be done in a way such that they don’t cause harm to the Network.',
-              'This is an important stage in the evolution of the Network as it means that new software can then continue to be rolled out onto the existing Network without disrupting the existing functionality.'
+              'Сеть будет иметь возможность обновлять себя, чтобы позволить функциям и улучшениям распространяться по всей Сети. Обновления должны быть выполнены таким образом, чтобы они не причиняли вреда Сети.',
+              'Это важный этап в эволюции Сети, поскольку это означает, что новое программное обеспечение может затем продолжать развертывание в существующей Сети, не нарушая существующую функциональность.'
             ],
             CTA: {
-              name: 'Follow the Discussion',
+              name: 'Следите за обсуждением',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-5-network-upgrades/28319'
             }
           }
@@ -239,52 +239,52 @@ export default {
       }
     },
     release4: {
-      overline: 'Coming Soon',
-      title: 'Upcoming Network Features',
-      para: ['The following list represents network work that remains to be completed. The order should not be seen as fixed in any way as in certain cases, work will be carried out in parallel by different teams.'],
+      overline: 'СКОРО',
+      title: 'Предстоящие сетевые функции',
+      para: ['Следующий список представляет работу сети, которая еще не завершена. Порядок не должен рассматриваться как фиксированный каким-либо образом, так как в определенных случаях работа будет выполняться параллельно разными командами.'],
       accordion: {
         header: [
-          'Feature',
-          'Description',
-          'Status'
+          'Особенность',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
-            feature: 'Secure Enclaves',
-            desc: 'A trusted executable environment within existing computers',
-            status: 'Concept',
+            feature: 'Безопасные „анклавы“',
+            desc: 'Доверенное исполняемое окружение на существующих компьютерах',
+            status: 'Концепт',
             para: [
-              'Creates an area within the hardware of a computer that is a secure, trusted environment that stands separate from the rest of the computer. It functions like a mini-computer inside existing computers that cannot be opened.'
+              'Создает область в оборудовании компьютера, которая представляет собой безопасную доверенную среду, которая отделена от остальной части компьютера. Он функционирует как мини-компьютер внутри существующих компьютеров, которые нельзя открыть.'
             ],
           }, {
-            feature: 'Network Growth',
-            desc: 'Allow the network to grow and scale in a sustainable way',
-            status: 'Concept',
+            feature: 'Развитие сети',
+            desc: 'Позвольте сети расти и масштабироваться устойчивым способом',
+            status: 'Концепт',
             para: [
-              'The Network allows controlled growth to ensure that the majority of decision-makers are healthy nodes that follow the rules of the Network. This growth should be sustainable in order to avoid unnecessary mergers between Sections.'
+              'Сеть позволяет осуществлять контролируемый рост, чтобы гарантировать, что директивные органы, принимающих решения, являются здоровыми узлами, которые следуют правилам Сети. Этот рост должен быть устойчивым, чтобы избежать ненужных слияний между Секциями.'
             ],
           }, {
-            feature: 'Network Restarts',
-            desc: 'Ability for the network to restart after a catastrophe',
-            status: 'Concept',
+            feature: 'Перезагрузка Сети',
+            desc: 'Возможность перезагрузки сети после катастрофы',
+            status: 'Концепт',
             para: [
-              'In the event of a catastrophic outage, the Network should be able to rebuild itself because it maintains the integrity of essential data (such as chain history) which enables it to start functioning again on the basis of the last known state of the Network.'
+              'В случае катастрофического сбоя Сеть должна быть в состоянии восстановить себя, потому что она поддерживает целостность важных данных (таких как история цепочки), что позволяет ей снова начать функционировать на основе последнего известного состояния сети.'
             ],
           }, {
-            feature: 'RDF Support',
-            desc: 'The Network will have native support for RDF, enabling data to be compatible with the Semantic Web',
+            feature: 'Поддержка RDF',
+            desc: 'Сеть будет иметь встроенную поддержку RDF, что позволит данным быть совместимыми с Семантическая паутина',
             status: 'RFC',
             para: [
-              'Ensures that data on the SAFE Network is stored in such a way that the format can be understood by other Semantic Web projects, such as Solid.'
+              'Гарантирует, что данные в SAFE Network хранятся таким образом, что формат может быть понят другими проектами Семантической сети, такие как Solid.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Читать RFC',
               url: 'https://github.com/nbaksalyar/rfcs/blob/master/text/0000-rdf-in-client-libs/0000-rdf-in-client-libs.md'
             },
           }, {
             feature: 'Obfuscating stored data',
             desc: 'All data stored within a Vault on an individual’s computer must be entirely encrypted and unreadable',
-            status: 'Concept',
+            status: 'Концепт',
             para: [
               'Ensures that even the smallest piece of data that is stored in a Vault cannot be read by the person controlling the computer on which it is stored.'
             ],
@@ -340,7 +340,7 @@ export default {
           {
             feature: 'Data Manager',
             desc: 'Streamlined publishing of SAFE sites and Perpetual Data',
-            status: 'Development',
+            status: 'В стадии разработки',
             para: [
               'A suite of tools which provides the necessary functionality to add data to the SAFE Network, publish perpetual data, and manage Public Names. This will supersede the Web Hosting Manager.'
             ],
@@ -384,7 +384,7 @@ export default {
               {
                 feature: 'Private Messaging',
                 desc: 'Send secure private messages between clients',
-                status: 'Concept',
+                status: 'Концепт',
                 para: [
                   'One of the most sought after features of the SAFE Network: secure, private, instant messaging.'
                 ],
@@ -392,7 +392,7 @@ export default {
               {
                 feature: 'Identity Management',
                 desc: 'Ability for users to create and manage multiple identities',
-                status: 'Concept',
+                status: 'Концепт',
                 para: [
                   'Improves the user experience for individuals as they switch between the identities (or profiles) that they choose to represent themselves with on the SAFE Network, without the need to create multiple accounts.'
                 ],
@@ -400,7 +400,7 @@ export default {
               {
                 feature: 'Contacts Management',
                 desc: 'Find, connect and stay up-to-date with other SAFE Network users  ',
-                status: 'Concept',
+                status: 'Концепт',
                 para: [
                   'Enables SAFE users to find and connect with other people across a range of applications in a consistent way.'
                 ],
@@ -421,7 +421,7 @@ export default {
               {
                 feature: 'Data Manager',
                 desc: 'Fine-grained management of your personal data',
-                status: 'Concept',
+                status: 'Концепт',
                 para: [
                   'The extension of the Data Manager tool to allow fine-grained control by individuals over their private and unpublished data.'
                 ],
@@ -441,7 +441,7 @@ export default {
               {
                 feature: 'SPARQL Support',
                 desc: 'Add native support for SPARQL to allow searching of data',
-                status: 'Concept',
+                status: 'Концепт',
                 para: [
                   'Enhances the functionality of SAFE by adding SPARQL support to SAFE Client Libs and SAFE Vault.  This ensures that the Network can understand a well-known semantic query language, and enables users to search.'
                 ],
@@ -449,7 +449,7 @@ export default {
               {
                 feature: 'Collaboration',
                 desc: 'Tools to enable collaboration through sharing and group permissions on private unpublished data',
-                status: 'Concept',
+                status: 'Концепт',
                 para: [
                   'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
                 ],
@@ -478,7 +478,7 @@ export default {
               {
                 feature: 'Test Safecoin Wallet',
                 desc: 'Transact using Test Safecoins',
-                status: 'Development',
+                status: 'В стадии разработки',
                 para: [
                   'Users will be able to use Test Safecoin in the Network, allowing an ecosystem to built around the SAFE incentive mechanism. The ability to create multiple wallets, associate them with an identity, and also one-time-use wallets to enable anonymous transactions, will all be part of this.',
                 ],
@@ -486,7 +486,7 @@ export default {
               {
                 feature: 'Vault User Interface',
                 desc: 'Easily set up, run, and manage a Vault',
-                status: 'Concept',
+                status: 'Концепт',
                 para: [
                   'Users will see greatly-improved Vault User Experience. Anyone providing storage to the Network can expect to see a number of usability improvements, making it easy to offer resources and start farming on everyday home computers and devices.'
                 ],
