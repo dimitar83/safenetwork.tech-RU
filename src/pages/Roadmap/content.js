@@ -282,18 +282,18 @@ export default {
               url: 'https://github.com/nbaksalyar/rfcs/blob/master/text/0000-rdf-in-client-libs/0000-rdf-in-client-libs.md'
             },
           }, {
-            feature: 'Obfuscating stored data',
-            desc: 'All data stored within a Vault on an individual’s computer must be entirely encrypted and unreadable',
+            feature: 'Запутывание сохраненных данных',
+            desc: 'Все данные, хранящиеся в Хранилище на отдельном компьютере, должны быть полностью зашифрованы и нечитаемые',
             status: 'Концепт',
             para: [
-              'Ensures that even the smallest piece of data that is stored in a Vault cannot be read by the person controlling the computer on which it is stored.'
+              'Гарантирует, что даже самый маленький фрагмент данных, который хранится в Хранилище, не может быть прочитан лицом, управляющим компьютером, на котором оно хранится.'
             ],
           }, {
-            feature: 'Common Coin',
-            desc: 'Replace our concrete coin with a common coin to make PARSEC fully asynchronous',
-            status: 'Design',
+            feature: 'Обычная монета',
+            desc: 'Замените нашу конкретную монету обычной монетой, чтобы сделать ПАРСЕК полностью асинхронным',
+            status: 'Дизайн',
             para: [
-              'Common coin is a device that nodes can use to generate a “random” binary value (true or false). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
+              'Обычная монета - это устройство, которое узлы могут использовать для генерации «случайного» двоичного значения (правда или ложь). Каждый раз, когда узел подбрасывает монету, все остальные узлы гарантированно будут наблюдать одно и то же значение для своего подбрасывания монеты. Кроме того, значение должно быть непредсказуемым, что означает, что ни один вредоносный узел не может знать результат до того, как честный узел его заметил.'
             ],
           }
         ]
@@ -301,67 +301,67 @@ export default {
     }
   },
   apps: {
-    title: 'Apps and User Experience',
+    title: 'Приложения и пользовательский опыт',
     list: [
       {
         id: 'safeBrowser',
-        name: 'SAFE Browser',
-        para: 'The latest release includes some of the beginnings of the Perpetual Web. Please note that it\'s only compatible with the Vaults Phase 1 release.',
-        status: 'Latest Version v0.16.0'
+        name: 'SAFE Браузер',
+        para: 'Последний выпуск включает в себя некоторые начала Непрерывной Сети, а также аутентификатор: он позволяет вам безопасно входить в SAFE Network и управлять доступом и разрешениями приложений SAFE.',
+        status: 'ПОСЛЕДНЯЯ ВЕРСИЯ v0.16.0'
       }
     ],
     currentMilestone: {
-      status: 'Current Milestone',
-      title: 'The Perpetual Web',
-      para: 'The SAFE Network is designed to ensure that public data is permanent and can never be deleted. Individuals and groups can choose to keep their data private, but once it’s been published, it will remain permanently available. This milestone aims to showcase the incredible power of this facet of the Network, by building out the User Experience, and iterating on it right through to launch.',
+      status: 'ТЕКУЩИЙ ЭТАП',
+      title: 'Непрерывная Сеть',
+      para: 'The SAFE Network предназначена для обеспечения того, чтобы общедоступные данные были постоянными и никогда не могли быть удалены. Отдельные лица и группы могут сохранять конфиденциальность своих данных, но после публикации они останутся постоянно доступными. Эта веха призвана продемонстрировать невероятную мощь этого аспекта сети, создавая пользовательский опыт и повторяя его до самого запуска.',
       accordion: {
         header: [
-          'Milestone Features',
-          'Description',
-          'Status'
+          'Особенности этапа',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
-            feature: 'SAFE Browser',
-            desc: 'Enhancements to the browser designed specifically to take advantage of the functionalities of the Perpetual Web',
+            feature: 'SAFE Браузер',
+            desc: 'Усовершенствования браузера, разработанные специально для использования преимуществ функциональности Непрерывной Сети',
             status: 'Законченный',
             para: [
-              'The SAFE Browser functionality will be extended to incorporate new features that are unique to the Perpetual Web, such as the ability to roll-back through the version history of any SAFE website or asset.'
+              'Функциональность SAFE Browser будет расширена для включения новых функций, уникальных для Непрерывной Сети, таких как возможность отката по истории версий любого веб-сайта или ресурса SAFE.'
             ],
           },
           {
-            feature: 'Mobile Browser',
-            desc: 'Mobile version of SAFE browser which is limited to browsing published data from the SAFE Network',
+            feature: 'Мобильный браузер',
+            desc: 'Мобильная версия браузера SAFE, ограниченная просмотром опубликованных данных из SAFE Network.',
             status: 'Законченный',
             para: [
-              'Enables individuals to access the SAFE Network directly by using a browser on their mobile phone'
+              'Позволяет людям получить доступ к SAFE Network напрямую, используя браузер на своем мобильном телефоне'
             ],
           },
           {
-            feature: 'Data Manager',
-            desc: 'Streamlined publishing of SAFE sites and Perpetual Data',
+            feature: 'Менеджер данных',
+            desc: 'Оптимизация публикации безопасных сайтов и вечных данных',
             status: 'В стадии разработки',
             para: [
-              'A suite of tools which provides the necessary functionality to add data to the SAFE Network, publish perpetual data, and manage Public Names. This will supersede the Web Hosting Manager.'
+              'Набор инструментов, который обеспечивает необходимую функциональность для добавления данных в SAFE Network, публикации бессрочных данных и управления Public Names. Это заменит менеджера веб-хостинга.'
             ],
           },
           {
             feature: 'SAFE CLI',
-            desc: 'An advanced CLI to manage accounts and data',
+            desc: 'Расширенный CLI для управления учетными записями и данными',
             status: 'Законченный',
             para: [
-              'A command line tool to manage data on the SAFE Network. It will allow the user to store data on the network and manage accounts, identities, and permissions. This is the tool that the frontend apps and features—such as the Data Manager—will build upon.'
+              'Командная строка для управления данными в SAFE Network. Это позволит пользователю хранить данные в сети и управлять учетными записями, личными данными и правами доступа. Это инструмент, на котором будут основываться внешние приложения и функции, такие как Data Manager.'
             ],
           },
           {
-            feature: 'Public Name System',
-            desc: 'Content stored should be accessible with human-readable URLs, via a decentralised domain name system: the Public Name System',
+            feature: 'Система публичных имен',
+            desc: 'Хранящийся контент должен быть доступен с понятными для человека URL-адресами через децентрализованную систему доменных имен: Систему публичных имен',
             status: 'Законченный',
             para: [
-              'A domain name system translates numerical IP addresses into a format that can be read by humans (eg. http//216.58.206.35 resolves to Google.com). The current web relies on a centralised organisation to maintain that record. The SAFE Network requires this process to be outside the control of a single party in order to avoid censorship and repression.'
+              'Система доменных имен переводит числовые IP-адреса в формат, который может быть прочитан людьми (например, http // 216.58.206.35 в Google.com). Текущая сеть опирается на централизованную организацию для ведения этой записи. SAFE Network требует, чтобы этот процесс был вне контроля только одной стороны, во избежание цензуры и репрессий.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Читать RFC',
               url: 'https://github.com/maidsafe/rfcs/issues/283'
             },
           },
@@ -369,126 +369,126 @@ export default {
       }
     },
     upcomingMilestones: {
-      status: 'Upcoming Milestones',
+      status: 'Грядущие цели',
       list: [
         {
-          title: 'Private Communications',
-          para: 'If we want a world in which individuals can communicate freely whenever they choose, privacy is essential. This milestone aims to deliver just that.',
+          title: 'Частные коммуникации',
+          para: 'Если мы хотим мира, в котором люди могут свободно общаться, когда бы они ни пожелали, конфиденциальность имеет важное значение. Эта цель нацелена на достижение именно этого.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Особенности этапа',
+              'Описание',
+              'Статус'
             ],
             items: [
               {
-                feature: 'Private Messaging',
-                desc: 'Send secure private messages between clients',
+                feature: 'Личные сообщения',
+                desc: 'Отправляйте защищенные личные сообщения между клиентами',
                 status: 'Концепт',
                 para: [
-                  'One of the most sought after features of the SAFE Network: secure, private, instant messaging.'
+                  'Одна из самых востребованных функций SAFE Network : безопасная, приватная, мгновенная обмена сообщениями.'
                 ],
               },
               {
-                feature: 'Identity Management',
-                desc: 'Ability for users to create and manage multiple identities',
+                feature: 'Управление идентификацией',
+                desc: 'Возможность для пользователей создавать и управлять несколькими аккаунтами',
                 status: 'Концепт',
                 para: [
-                  'Improves the user experience for individuals as they switch between the identities (or profiles) that they choose to represent themselves with on the SAFE Network, without the need to create multiple accounts.'
+                  'Улучшает пользовательский интерфейс для людей, когда они переключаются между аккаунтами (или профилями), которые они выбирают для представления себя в SAFE Network , без необходимости создания нескольких аккаунтов.'
                 ],
               },
               {
-                feature: 'Contacts Management',
-                desc: 'Find, connect and stay up-to-date with other SAFE Network users  ',
+                feature: 'Управление контактами',
+                desc: 'Найти, подключиться и оставаться в курсе других пользователей SAFE Network',
                 status: 'Концепт',
                 para: [
-                  'Enables SAFE users to find and connect with other people across a range of applications in a consistent way.'
+                  'Позволяет SAFE пользователям находить и связываться с другими людьми в различных приложениях согласованным способом.'
                 ],
               },
             ]
           }
         },
         {
-          title: 'Take Control of Your Data',
-          para: 'The SAFE Network turns the current data ownership model on its head. Personal information will no longer be stored on corporate servers. Self Authentication gives you complete control over your data. You can grant (and revoke) permission for apps to use your data at any time and prevent any unauthorised company or third party ever gaining access.',
+          title: 'Возьмите под контроль ваши данные',
+          para: 'SAFE Network переворачивает текущую модель владения данными с ног на голову. Личная информация больше не будет храниться на корпоративных серверах. Самостоятельная аутентификация дает вам полный контроль над вашими данными. Вы можете предоставить (и отозвать) разрешение приложениям на использование ваших данных в любое время и предотвратить доступ любой несанкционированной компании или третьей стороны.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Особенности этапа',
+              'Описание',
+              'Статус'
             ],
             items: [
               {
-                feature: 'Data Manager',
-                desc: 'Fine-grained management of your personal data',
+                feature: 'Менеджер данных',
+                desc: 'Детальное управление вашими личными данными',
                 status: 'Концепт',
                 para: [
-                  'The extension of the Data Manager tool to allow fine-grained control by individuals over their private and unpublished data.'
+                  'Расширение инструмента Диспетчер данных, позволяющее физическим лицам контролировать свои личные и неопубликованные данные.'
                 ],
               },
               {
-                feature: 'RDF Support',
-                desc: 'Support storing and querying RDF resources in SAFE-Core',
+                feature: 'Поддержка RDF',
+                desc: 'Поддержка хранения и запросов ресурсов RDF в SAFE-Core',
                 status: 'RFC',
                 para: [
-                  'Ensures that the SAFE Network understands a way of describing the architecture of data that is understood by other projects, such as Solid'
+                  'Гарантирует, что SAFE Network понимает способ описания архитектуры данных, понятной другим проектам, таким как Solid'
                 ],
                 CTA: {
-                  name: 'Read the RFC',
+                  name: 'Читать RFC',
                   url: 'https://github.com/maidsafe/rfcs/issues/289'
                 },
               },
               {
-                feature: 'SPARQL Support',
-                desc: 'Add native support for SPARQL to allow searching of data',
+                feature: 'Поддержка SPARQL',
+                desc: 'Добавить встроенную поддержку SPARQL, чтобы позволить поиск данных',
                 status: 'Концепт',
                 para: [
-                  'Enhances the functionality of SAFE by adding SPARQL support to SAFE Client Libs and SAFE Vault.  This ensures that the Network can understand a well-known semantic query language, and enables users to search.'
+                  'Расширяет функциональность SAFE, добавляя поддержку SPARQL в SAFE Client Libs и SAFE Vault. Это гарантирует, что сеть может понимать хорошо известный язык семантических запросов, и позволяет пользователям выполнять поиск.'
                 ],
               },
               {
-                feature: 'Collaboration',
-                desc: 'Tools to enable collaboration through sharing and group permissions on private unpublished data',
+                feature: 'Сотрудничество',
+                desc: 'Инструменты для совместной работы с помощью совместного использования и групповых разрешений для личных неопубликованных данных',
                 status: 'Концепт',
                 para: [
-                  'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
+                  'Управление совместным использованием и разрешениями личных, неопубликованных данных и файлов для совместной работы отдельных лиц и групп.'
                 ],
               },
               {
-                feature: 'XOR URLs',
-                desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
+                feature: 'XOR URL-адресов',
+                desc: 'Способ совместного использования и доступа к файлам SAFE Network без необходимости использования публичного имени',
                 status: 'Законченный',
                 para: [
-                  'Create a system of standardised URL’s on the SAFE Network that are based on the XOR address of the content being referenced. Ensures that individuals can access and locate  data and files in a more user-friendly manner.'
+                  'Создание системы стандартизированных URL-адресов в SAFE Network, основанную на адресе XOR содержимого, на которое делается ссылка. Гарантирует, что люди могут получить доступ и найти данные и файлы в более удобной для пользователя форме.'
                 ],
               }
             ]
           }
         },
         {
-          title: 'The New Digital Economy',
-          para: 'The new digital economy is all about ensuring that you no longer pay for your digital life with data. Instead, you use a cryptocurrency that’s integral and distributed by the SAFE Network. You earn value in return for providing resources to the Network.',
+          title: 'Новая цифровая экономика',
+          para: 'Новая цифровая экономика - это гарантия того, что вы больше не будете платить за цифровую жизнь данными. Вместо этого вы используете криптовалюту, которая является неотъемлемой и распространяется через SAFE Network. Вы получаете прибыль в обмен на предоставление ресурсов для сети.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Особенности этапа',
+              'Описание',
+              'Статус'
             ],
             items: [
               {
-                feature: 'Test Safecoin Wallet',
-                desc: 'Transact using Test Safecoins',
+                feature: 'Тест кошелька Safecoin',
+                desc: 'Транзакция с использованием тестовых Safecoin',
                 status: 'В стадии разработки',
                 para: [
-                  'Users will be able to use Test Safecoin in the Network, allowing an ecosystem to built around the SAFE incentive mechanism. The ability to create multiple wallets, associate them with an identity, and also one-time-use wallets to enable anonymous transactions, will all be part of this.',
+                  'Пользователи смогут использовать Test Safecoin в Сети, что позволит создать экосистему, основанную на механизме стимулирования SAFE. Возможность создания нескольких кошельков, привязки их к личности, а также одноразовых кошельков для включения анонимных транзакций, будет частью этого.',
                 ],
               },
               {
-                feature: 'Vault User Interface',
-                desc: 'Easily set up, run, and manage a Vault',
+                feature: 'Пользовательский интерфейс Хранилища',
+                desc: 'Простота настройки, запуска и управления Хранилища',
                 status: 'Концепт',
                 para: [
-                  'Users will see greatly-improved Vault User Experience. Anyone providing storage to the Network can expect to see a number of usability improvements, making it easy to offer resources and start farming on everyday home computers and devices.'
+                  'Пользователи увидят значительно улучшенный пользовательский интерфейс Хранилища. Любой, кто предоставляет Хранилища для сети, может рассчитывать на ряд улучшений в удобстве использования, что позволяет легко предлагать ресурсы и начинать Фермерство на бытовых домашних компьютерах и устройствах.'
                 ],
               },
             ]
