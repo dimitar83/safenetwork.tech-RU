@@ -1,128 +1,128 @@
 export default {
-  title: 'Network Fundamentals',
-  desc: 'There are certain concepts that have driven every stage of the design of the Network ever since the project started in 2006. Since that time, the SAFE community has grown and we’re delighted to see just how many people and projects have come to recognise the vital importance of a global, secure and private decentralised platform for storage and communication.',
+  title: 'Основы сети',
+  desc: 'Существуют фундаментальные принципы, на которых построена сеть SAFE с момента начала проекта в 2006 году. С тех пор сообщество SAFE выросло, и мы рады видеть, как много людей и проектов осознают жизненно важное значение глобальной, безопасной, личной децентрализованной платформы для хранения данных и коммуникаций.',
   qa: {
     section: {
-      title: 'The Network will...',
+      title: 'Сеть будет...',
       items: [
         {
-          question: 'Allow a person to create an account and login anonymously and without intervention',
+          question: 'Разрешить создавать аккаунт и входить анонимно и без вмешательства',
           answer: [
-            'Creating a new account and logging into the Network will never require a third party. Those processes will always be carried out directly between the User and the Network. It is worth noting that (for technical reasons) account creation may require the presence of Safecoin in the user’s account in certain circumstances (if this, for example, minimises the possibility of one entity creating millions of new accounts to attack the Network).'
+            'Создание нового аккаунта и вход в сеть никогда не потребует одобрения третьей стороны. Эти процессы всегда будут выполняться непосредственно между Пользователем и Сетью. Стоит отметить, что (по техническим причинам) создание аккаунта может потребовать наличия Safecoin в учетной записи при определённых обстоятельствах (например, сводит к минимуму возможность создания миллионов новых фальшивых аккаунтов для атаки на Сеть).'
           ]
         },
         {
-          question: 'Enable Users to securely and with no controlling intermediaries share information and messages',
+          question: 'Позволяет пользователям безопасно и без контролирующих посредников обмениваться информацией и сообщениями.',
           answer: [
-            'The SAFE Network will never have any third parties who have the ability to either read or store the information sent by a User (unless that User consents in some way).'
+            'SAFE Network никогда не позволит каким-либо третьим лицам читать, либо копировать информацию, отправленную Пользователем (если только Пользователь сам не даст согласие).'
           ]
         },
         {
-          question: 'Allow the transfer of Safecoin to any User free of transaction costs',
+          question: 'Разрешить передачу Safecoin любому Пользователю без транзакционных расходов',
           answer: [
-            'Each User will be able to use any of their identities as a wallet address in order to be able to send and receive Safecoin.'
+            'Каждый Пользователь сможет использовать любую из своих идентификационных данных в качестве адреса кошелька, чтобы иметь возможность отправлять или получать Safecoin.'
           ]
         },
         {
-          question: 'Enable Users to anonymously create and share data worldwide',
+          question: 'Разрешить пользователям анонимно создавать и обмениваться данными по всему миру',
           answer: [
-            'The Network will always ensure that the User has the ability to send transaction messages and posts with a temporary and single-use ID that is not linked to any known identity on the Network.'
+            'Сеть гарантирует и даёт возможность Пользователю отправлять сообщения транзакции с временными одноразовыми идентификаторами, которые не связаны ни с какой-либо личностью в Сети.'
           ]
         },
         {
-          question: 'Let anyone browse content anonymously and free of charge',
+          question: 'Позволяет всем просматривает контент анонимно и бесплатно',
           answer: [
-            'It is crucial that the new decentralised web is without barriers. One of the most important foundations for a global, collaborative platform is that anyone can access public content for free at any time without the need to create an account.'
+            'Крайне важно, чтобы новая децентрализованная сеть была без барьеров. Одна из наиболее важных основ глобальной совместной платформы заключается в том, что любой может получить бесплатный доступ к общедоступному контенту в любое время без необходимости создания аккаунта.'
           ]
         },
         {
-          question: 'Allow Users to associate multiple identities to their account',
+          question: 'Разрешить пользователям связывать несколько учетных записей с их аккаунтом',
           answer: [
-            'Each Client Account manages information about the User which will include several identities. These identities are likely to be cryptographic key pairs.'
+            'Каждый клиента управляет информацией о пользователе, которая будет включать несколько идентификаторов. Эти идентификаторы, будут парами криптографических ключей’'
           ]
         },
         {
-          question: 'Let Users use any of their identities to send/receive Safecoin',
+          question: 'Разрешить пользователям использовать любую свою личность для отправки / получения Safecoin',
           answer: [
-            'Each individual must be able to use any of their identities as a wallet address in order to be able to send and receive Safecoin.'
+            'Каждый человек должен иметь возможность использовать любую личность в качестве адреса кошелька, чтобы иметь возможность отправлять и получать Safecoin.'
           ]
         },
         {
-          question: 'Store data in perpetuity',
+          question: 'Сохраняет данные вечно',
           answer: [
-            'All public/published data on the Network will be immutable and available on the Network in perpetuity. In exactly the same way as the Internet Archive stores versions of website that were published with mistakes, it will be impossible to delete any data from the Network after it has been uploaded. That does not mean that you won’t be able to change data - you will be able to make append-only changes, i.e. historic, earlier versions of data will always remain stored on the Network (whether they are accessible or not).'
+            'Все общедоступные / опубликованные данные в сети будут неизменными и будут доступны вечно. Точно так же, как интернет-архив хранит версии веб-сайта, которые были опубликованы с ошибками, невозможно будет удалить какие-либо данные из сети после их загрузки. Это не означает, что вы не сможете изменять данные - вы сможете вносить изменения только при добавлении, т.е. данные более ранних версий будут всегда храниться в сети (независимо от того, доступны они или нет).'
           ]
         },
         {
-          question: 'Never require passwords to be stored on the Network or on the machines used by the Clients to access the Network',
+          question: 'Никогда не будет требовать, чтобы пароли хранились в сети или на устройствах, используемых Клиентами для доступа к сети',
           answer: [
-            'The Network itself will never hold passwords as this is a common cause of data loss. Instead, a User will only ever be required to enter a password locally on the device which they use to access the Network.'
+            'Сама сеть никогда не будет хранить пароли, так как это частая причина потери данных. Вместо этого, пользователю будет необходимо только ввести пароль локально на устройстве, которое он использует для доступа к сети.'
           ]
         },
         {
-          question: 'Allow any User, on any machine, to access the network and leave no trace of that User on the machine',
+          question: 'Разрешить любому пользователю на любом устройстве доступ к сети и не оставлять никаких следов этого пользователя на этом устройстве',
           answer: [
-            'The Network must ultimately be accessible to any User on any device. When that User logs out from the Network and leaves that machine, there must be no evidence (other than any software downloaded to access the Network, such as the browser) that shows what activity the User undertook on the SAFE Network.'
+            'В конечном итоге сеть должна быть доступна любому пользователю на любом устройстве. Когда этот Пользователь выходит из сети и покидает это устройство, не должно быть никаких доказательств (кроме программного обеспечения, загруженного для доступа к SAFE, например браузера), которые показывают, какие действия Пользователь предпринял в SAFE Network.'
           ]
         },
         {
-          question: 'Scrub all Client IP addresses from Hop 1 of the overlay network (i.e on SAFE)',
+          question: 'Очистка всех клиентских IP-адресов после „первого Перехода“ в SAFE Network',
           answer: [
-            'After a User has started to communicate directly with anyone else after the first SAFE Network node that it connects to, the User’s IP address is scrubbed and untraceable. For clarity, we are using the phrase ‘Hop 1’ to refer to the transfer directly after that connection to the first SAFE Network node (not the hop that may take place from your computer to your home WiFi router, for example).'
+            'После того, как пользователь начал напрямую общаться с кем-либо после первого компьютера(к которому он подключился) в SAFE Network, IP-адрес пользователя очищается и не отслеживается. Для ясности, «первый Переход» - это первый компьютер в SAFE Network , к которому подключился пользователь (например, не „переход“ с компьютера на домашний маршрутизатор WIFI).'
           ]
         },
         {
-          question: 'Only accept more Vaults when it needs them',
+          question: 'Принимает больше Хранилищ только тогда, когда это необходимо',
           answer: [
-            'Like any species or group of organisms, unbounded growth leads to demise. The SAFE Network could be attacked by a bad actor simply adding millions of nodes and then closing them down (or worse). To help prevent this, the Network will only allow new nodes to join when it needs them. This also nicely slows any attacker and dilutes them with good actors also trying to join. The Network can then balance supply and demand as it sees fit as opposed to relying on external controls.'
+            'Как и у любого вида или группы организмов, неограниченный рост ведет к гибели. SAFE Network может быть подвергнута нападкам, просто добавив миллионы узлов и затем разом их закрыть (или, что еще хуже). Чтобы предотвратить это, сеть будет разрешать присоединение новых узлов только тогда, когда они ей нужны. Тем самым замедляет любого нападающего и разрежает его хорошими юзерами, также пытающимися присоединиться. Сеть может затем сбалансировать спрос и предложение по своему усмотрению, а не полагаться на внешнее управление.'
           ]
         },
         {
-          question: 'Increase farming rewards when it needs more resources (Vaults) and decrease rewards when resources are plentiful',
+          question: 'Увеличивает награды Фермерам, когда нужно больше ресурсов (Хранилищ), и уменьшайте награды, когда ресурсов много',
           answer: [
-            'If the Network simply accepted any Vault that wanted to join, it would likely either be targeted by a botnet attack or an attacker might attempt to set up an overwhelming number of malicious nodes initially whilst the Network size is small at launch. The Network must be able to balance this supply of Vaults itself to avoid there being a large number of nodes that have very little data, as this would push the farming rates down.'
+            'Если сеть просто примет каждое Хранилище, которое хочет присоединиться, оно, скорее всего, будет либо атаковано ботнетом, либо злоумышленник может попытаться установить подавляющее количество вредоносных узлов на начальном этапе, пока размер Сети при запуске невелик. Сеть должна быть в состоянии сбалансировать этот запас самих Хранилищ, чтобы избежать большого количества узлов, у которых очень мало данных, так как это снизит скорость Фермерства.'
           ]
         },
         {
-          question: 'Rank nodes over time and increase trust in higher ranked nodes',
+          question: 'Ранжирует узлы с течением времени и повышает доверие к узлам с более высоким рейтингом',
           answer: [
-            'A crucial part of Node Ageing (one of the ways by which the SAFE Network prevents Sybil attacks) comes from the fact that the Network is designed to only permit the most trustworthy nodes within each of the Close Groups to vote on the decisions in the Network.'
+            'Важнейшая часть Node Aging (один из способов, с помощью которого SAFE Network предотвращает атаки Sybil) сеть спроектирована таким образом, что позволяет только самым надёжным узлам в каждой из Близких Групп голосовать за решения в сети.'
           ]
         },
         {
-          question: 'Not have servers',
+          question: 'Без серверов',
           answer: [
-            'The SAFE Network will never rely on servers (as the term is traditionally understood) as to do so introduces a third party weakness that undermines the entire Network.'
+            'SАFE Network никогда не будет полагаться на серверы, поскольку при этом возникает уязвимость третьей стороны, которая может подорвать всю Сеть.'
           ]
         },
         {
-          question: 'Digitally sign all transactions',
+          question: 'Цифровая подпись для всех транзакций',
           answer: [
-            'By ensuring that all transactions are digitally signed, the Network is able to ensure that the transactions have been authorised in accordance with the rules of the Network.'
+            'Требует, что все транзакции имеют цифровую подпись, Сеть гарантирует, что транзакции были авторизованы в соответствии с правилами Сети.'
           ]
         },
         {
-          question: 'Ensure that Client-to-Client direct messages are free. It will charge, however, for Client-to-Client messages involving traversal through the SAFE Network',
+          question: 'Гарантирует, что личные сообщения от клиента к клиенту бесплатны. Однако за анонимные сообщения от клиента к клиенту проходящие через SAFE Network - будет взиматься плата. Клиенты - это программы, позволяющие пользователям подключаться к SAFE Network',
           answer: [
-            'Clients are software programs that allow users to connect to the SAFE Network. There will never be charge levied by the Network if messages are sent directly between two Clients. However, any indirect messages that are sent between Clients that involve travel across the Network will carry a cost.'
+            'Сеть никогда не будет взимать плату, если сообщения отправляются напрямую между двумя Клиентами. Тем не менее, любые косвенные сообщения, отправляемые между Клиентами, связанные с перемещением по Сети, не будут бесплатными.'
           ]
         },
         {
-          question: 'Never use time as a network tool (although nodes may use local durations)',
+          question: 'Никогда не будет использовать время в качестве сетевого инструмента (хотя устройства могут использовать локально)',
           answer: [
-            'There is no concept of time in a decentralised network such as SAFE unless it reaches out to centralised servers and services. SAFE uses a completely event-driven paradigm to circumvent the need to try and synchronise and then use time periods as valid tools on the network. These periods require magic numbers which would need to be set by developers and this is something the Network avoids with rigour.'
+            'В децентрализованной сети, такой как SAFE, нет понятия времени, если только оно не обращается к централизованным серверам и услугам. SAFE использует полностью управляемую событиями парадигму, чтобы обойти необходимость синхронизации и использовать периоды времени в качестве действительных инструментов в сети. Эти периоды требуют «магических чисел», которые должны были бы быть установлены разработчиками, и это то, чего Сеть строго избегает.'
           ]
         },
         {
-          question: 'Only ever use encrypted services and encrypted traffic',
+          question: 'Используется только зашифрованные услуги и зашифрованный трафик',
           answer: [
-            'Services or traffic must be encrypted if they are to be used by the SAFE Network.'
+            'В SAFE Network все Услуги и трафик должны быть зашифрованными.'
           ]
         },
         {
-          question: 'Allow real-time upgrades in a secure manner (i.e the Network will refuse upgrades that could break it)',
+          question: 'Позволяет обновления в режиме реального времени безопасным способом (т.е. Сеть отклонит обновления, которые могут ее сломать)',
           answer: [
-            'The Network must be able to roll out improvements which are compatible with at least the previous version of the Network software, in order to ensure that the new iteration is an improvement in practice. As this will require significant effort, each node may run upgrades in parallel to existing working code before upgrading.'
+            'Сеть должна иметь возможность развертывать улучшения, совместимые по крайней мере с предыдущей версией программного обеспечения для сети, чтобы гарантировать, что новая версия лучше старой. Поскольку это потребует значительных усилий, каждый узел перед обновлением, может выполнить обновления параллельно с существующей.'
           ]
         },
       ]
@@ -133,20 +133,20 @@ export default {
     lists: [
       {
         name: 'A.',
-        para: 'Safecoin is the unique incentivisation mechanism built into the SAFE Network. All Safecoins are recycled when they are paid to the Network in exchange for resources. On launch, Safecoin will be distributed as follows: (1) Pay the creators of the Network (MaidSafe shareholders) 5% of the total Safecoin; (2) Pay the 2014 crowdsale investors of the Network 10% of the total Safecoin.'
+        para: 'Safecoin - это уникальный механизм стимулирования, встроенный в SAFE Network . Все Safecoin-ы перерабатываются, когда они выплачиваются в Сеть в обмен на ресурсы. При запуске сети - Safecoin будет распределяться следующим образом: 1. Платится создателям Сети (акционерам MaidSafe) 5% от общей суммы Safecoin; 2. Платится краудсейл-инвесторам(участвующих в 2014 году) сети 10% от общей суммы Safecoin.'
       },
       {
         name: 'B.',
-        para: 'Safecoin will be distributed on an ongoing basis: (1) Pay Vaults for providing service (85% of rewards); (2) Pay developers who produce apps that people use (10% of rewards); (3) Pay the maintainers of the Network code (5% of rewards)'
+        para: 'Safecoin будет распространяться на постоянной основе: (1) Оплата Хранилищам за предоставление услуг (85% вознаграждений); (2) Оплата разработчикам, которые производят приложения, которые люди используют (10% вознаграждений); (3) Оплата поддерживающим код сети (5% вознаграждений)'
       },
     ],
     notes: {
-      title: 'Note:',
-      para: 'Whilst the above explanation is a handy approximation of the split, the rewards will in fact be dynamically adjusted according to the Farming Rate determined by the Network:',
+      title: 'Замечания:',
+      para: 'Приведенное выше объяснение приблизительное , фактически вознаграждения будут динамически корректироваться в соответствии с коэффициентом Фермерства, определяемым сетью:',
       points: [
-        'Farmers who run the Vaults are paid at 100% of the Farming Rate for all GETs on the Network. I.e. 86.95% (100/115) of all rewards.',
-        'Application Developers are paid at 10% of the Farming Rate for all GETs on the Network (that relate to their applications). I.e. 8.695% (10/115) of all rewards.',
-        'Maintainer Developers are paid at 5% of the Farming Rate for all GETs on the Network. I.e. 4.348% (5/115) of all rewards.'
+        'Фермерам, управляющие Хранилищами, платят 100% от ставки Фермерства, за все запросы в сети, т.е. 86,95% (100/115) от всех наград.',
+        'Разработчики приложений получают 10% от ставки Фермерства за все запросы в сети (которые относятся к их приложениям) т.е. 8,695% (10/115) от всех наград.',
+        'Разработчики сети получают 5% от ставки Фермерства за все запросы в сети. То есть 4,348% (5/115) всех наград.'
       ]
     }
   }
