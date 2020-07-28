@@ -124,119 +124,119 @@
         {
           question: 'Что такое само&#8209;шифрование?',
           answer: [
-            'Self-encryption is the way in which a piece of data is split and then each chunk is encrypted using the other pieces of that same piece of data. It is a crucial process in the SAFE Network and ensures that the data is unrecognisable and resistant to decryption—even in the event of an encryption algorithm being compromised.',
-            'All data is self-encrypted before it is reaches the SAFE Network. The process is automatic and happens instantaneously.',
-            'As data is saved to a User\'s virtual hard drive, it is broken up into a minimum of three chunks, [hashed](https://en.wikipedia.org/wiki/Hash_function) and then encrypted. To further obfuscate the data, every chunk is passed through an [XOR](https://en.wikipedia.org/wiki/Exclusive_or) function using the hashes of other chunks. Each chunk is then broken up and key value pairs are added to a table in the Users account, called a data map. The data map contains the locations of each chunk that makes up the file. The data map, with hashes before and after encryption, is used when retrieving and decoding the User\'s data, as the encryption process is non-reversible.',
-            'This entire process takes place on the Client (i.e. the User\'s computer) so that data is always encrypted on the network and only Users with the correct credentials can decrypt the file. This also means that passwords can never be stolen from the network as they never pass beyond the Users computer. For additional security the data map is also run through the self-encryption process.',
-            '[Watch a Video Explainer](https://youtu.be/Jnvwv4z17b4)'
+            'Само-шифрование - это способ разделения фрагмента данных, а затем каждый фрагмент шифруется с использованием других фрагментов этого же фрагмента данных. Это критически важный процесс в SAFE Network, гарантирующий, что данные не распознаются и не поддаются расшифровке даже в случае нарушения алгоритма шифрования.',
+            'Все данные зашифровываются до того, как они попадают в SAFE Network. Процесс автоматический и происходит мгновенно в реальном времени.',
+            'Поскольку данные сохраняются на виртуальном жестком диске пользователя, они разбиваются как минимум на три блока, [хэшируются](https://en.wikipedia.org/wiki/Hash_function) и затем шифруются. Чтобы дополнительно запутать данные, каждый кусок передается через функцию [XOR](https://en.wikipedia.org/wiki/Exclusive_or) с использованием хэшей других фрагментов. Затем каждый блок разбивается, и пары ключ-значение добавляются в таблицу в аккаунта юзера , которая называется картой данных. Карта данных содержит местоположения каждого блока, который составляет файл. Карта данных с хэшами до и после шифрования используется при извлечении и декодировании данных пользователя, поскольку процесс шифрования необратим.',
+            'Весь этот процесс происходит у клиента (то есть на компьютере пользователя), так что данные в сети всегда шифруются, и только пользователи с правильными учетными данными могут расшифровать файл. Это также означает, что пароли никогда не могут быть украдены из сети, поскольку они никогда не выходят за пределы компьютера Пользователя. Для дополнительной безопасности карта данных также проходит процесс само-шифрования.',
+            '[Посмотрите видео](https://youtu.be/Jnvwv4z17b4)'
           ]
         },
         {
-          question: 'What is PARSEC?',
+          question: 'Что такое ПАРСЕК?',
           answer: [
-            '**P**rotocol for **A**synchronous, **R**eliable, **S**ecure & **E**fficient **C**onsensus.',
-            'PARSEC is the consensus algorithm which allows decentralised networks to reach agreement on a series of events, actions or activities in a secure and reliable manner that is not only highly asynchronous but also Byzantine Fault Tolerant. In other words, the Network is mathematically guaranteed to reach consensus (provided no more than one-third of nodes are malicious or unresponsive for whatever reason).',
-            '[Read the whitepaper](https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
+            'Протокол для асинхронного, надежного, безопасного и эффективного консенсуса.',
+            'ПАРСЕК - это алгоритм консенсуса, который позволяет децентрализованным сетям достигать соглашения о серии событий, действий и надежным способом, которые являются не только высоко асинхронными, но и устойчивые к Византийским проблемам(Byzantine Fault Tolerant ). Другими словами, математически гарантируется, что Сеть достигнет консенсуса (при условии, что не более одной трети узлов являются вредоносными или не отвечают по какой-либо причине).',
+            '[Прочитайте документ](https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
             '_PDF_',
-            '[Watch a video giving a technical overview](https://youtu.be/JKagaPUrDsY)',
+            '[Посмотрите видео с техническим обзором](https://youtu.be/JKagaPUrDsY)',
             '_YouTube_',
-            '[Let Dug from MaidSafe talk you through it](https://youtu.be/3YRaTCET5ZU)',
+            '[Пусть Даг от MaidSafe объяснит](https://youtu.be/3YRaTCET5ZU)',
             '_YouTube_'
           ]
         },
         {
-          question: 'What is data deduplication?',
+          question: 'Что такое дедупликация данных?',
           answer: [
-            'The SAFE Network uses [data deduplication](https://en.wikipedia.org/wiki/Data_deduplication) to ensure that space is used efficiently when storing multiple copies of data which have been uniquely encrypted. The network is able to distinguish identical pieces of data by comparing the hashes of each chunk. Vaults also use hashes to identify themselves (known as Guaranteed Vault Identification).'
+            'SAFE Network использует [дедупликацию данных](https://en.wikipedia.org/wiki/Data_deduplication) чтобы обеспечить эффективное использование пространства при хранении нескольких копий данных, которые были уникально зашифрованы. Сеть способна различать идентичные фрагменты данных, сравнивая хеши каждого фрагмента. Хранилища также используют хеши для идентификации себя (известный как гарантированная идентификация Хранилища).'
           ]
         },
         {
-          question: 'What is Self-Authentication?',
+          question: 'Что такое само-аутентификация?',
           answer: [
-            'Self-Authentication means that you can log in and secure your data with no middle man. You never have to give your password to anyone or ask a third party’s permission to access your data. Your information, and access to it, belongs to you and no one else. Your Secret and Password are used to locate your data on the Network and then used to decrypt that data locally. That means that no one needs to hold a record of your files or your login details—and there’s no need to ask anyone for permission to access it. This is known as Self-Authentication and enables you to find, unlock and decrypt your own data. '
+            'Само-аутентификация означает, что вы можете войти и защитить свои данные без посредников. Вам никогда не придется никому сообщать свой пароль или запрашивать разрешение третьей стороны на доступ к вашим данным. Ваша информация и доступ к ней принадлежит вам и никому другому. Ваше Секретное слово и Пароль используются, чтобы найти ваши данные в Сети, а затем используются для дешифрования этих данных локально. Это означает, что никому не нужно хранить записи о ваших файлах или ваших данных для входа в систему - и вам не нужно ни у кого спрашивать разрешения на доступ к ним. Это называется само-аутентификацией и позволяет вам находить, разблокировать и расшифровывать свои собственные данные. '
           ]
         },
         {
-          question: 'What is Close Group Consensus?',
+          question: 'Что такое близкий групповой консенсус?',
           answer: [
-            'A key requirement for distributed computer networks is consensus. In other words how can nodes reach agreement when there is no centralised authority and when you are likely to have nodes that are either malicious or fail. Many projects will rely on a blockchain in order to achieve this consensus but, as we know, [this approach doesn’t work](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) with the SAFE Network where the number of transactions is greater and the expectation of users will be to retrieve data instantaneously. So how do you reach consensus on an increasingly large group of decentralised nodes without compromising security?',
-            'The answer lies within close groups. Using Close Group Consensus, small groups are able to make statements on behalf of the entire Network which means that the Network does not need to communicate directly with every single node each time.',
-            'On the SAFE Network, the concept of ‘closeness’ comes from something called XOR networking. This is a way of randomising the physical location of data on a distributed network and ensuring that each location is unique. However, in this sense, it is also used because every Vault has a XOR location also. A Close Group is then comprised of the closest Vault ID’s to the user’s Vault ID in terms of XOR distance. This is distance measured in the mathematical sense, as opposed to the geographical sense.',
-            'The Group of Vaults managing a Section will always try to reach consensus (agreement) amongst themselves on any state and action. They also ‘group sign’ messages that travel over the wider network so that other Vaults in other Groups can cryptographically verify each message and action (such as groups forming, splitting and merging). These group signatures are stored in Data Chains which are secured and held by all Vaults in the Group.',
-            'Close Group Consensus is not used for every operation on the Network as this would cause unnecessary load. It is only used for putting data on the Network—cryptographic signatures are used for other activities—for example, simple amendments to data or sending a Safecoin to another user.'
+            'Ключевым требованием децентрализованной сети является консенсус. Другими словами, как узлы могут достичь соглашения, когда нет централизованных полномочий, и когда у вас могут быть узлы, которые являются либо вредоносными, либо выходят из строя. Многие проекты будут опираться на блокчейн для достижения этого консенсуса, но, как мы знаем, [этот подход не работает](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) с SAFE Network, где количество транзакций больше и пользователи ожидают мгновенного получения данных. Итак, как вы достигнете консенсуса в отношении все большей группы децентрализованных узлов, не ставя под угрозу безопасность?',
+            'Ответ лежит в близости групп. Используя Консенсус о близости групп, небольшие группы могут делать заявления от имени всей Сети, что означает, что Сети не нужно каждый раз напрямую связываться с каждым узлом.',
+            'В SAFE Network концепция ‘близости‘ происходит от того, что называется сетью XOR. Это способ рандомизации физического местоположения данных в распределенной сети и обеспечения уникальности каждого местоположения. Тем не менее, в этом смысле он также используется, потому что каждое Хранилище также имеет местоположение XOR. Близкая группа затем состоит из ближайших идентификаторов Хранилища и идентификатора Хранилища пользователя с точки зрения расстояния XOR. Это расстояние измеряется в математическом смысле, а не в географическом смысле.',
+            'Группа Хранилищ, управляющая секцией, всегда будет пытаться достичь консенсуса (согласия) между собой по любому состоянию и действию. Они также ‘подписывают групповые‘ сообщения, которые передаются по более широкой сети, так что другие Хранилища в других группах могут криптографически проверять каждое сообщение и действие (например, формирование групп, разделение и объединение). Эти групповые подписи хранятся в цепочках данных, которые защищены и хранятся всеми Хранилищами в группе.',
+            'Консенсус по близкой группе не используется для каждой операции в сети, поскольку это может привести к ненужной загрузке. Он используется только для размещения данных в сети - криптографические подписи используются для других действий, например, для простых изменений данных или отправки Safecoin-а другому пользователю.'
           ]
         },
         {
-          question: 'What are Data Chains?',
+          question: 'Что такое Цепочки данных?',
           answer: [
-            'In the same way that the Bitcoin blockchain does not hold bitcoins, a data chain doesn’t hold data. However, it does provide evidence that a piece of data exists and where it should exist. Crucially, with the SAFE Network the data identified is real (documents, videos etc). That means that we can use that data identifier to prove the actual data itself is valid Network data (i.e. it has been accepted previously by the Network).',
-            'So what is the architecture of a Data Chain? Imagine a block of data. This contains the data identifiers (for example, hash, name, type of data etc). Connected to this block is a link. This link a collection of signatures by all of the members of a group who agree that the details within this block of data are correct. With every change in the membership of the group, a new link is created and added to the Data Chain.',
-            'There is much more to the detail of this architecture but to summarise, the Data Chain will split as the Network grows whilst the collective record will remain, accessible to all nodes. The links prove the membership and agreement that has taken place in the past. Using Data Chains, nodes have a provable history on the Network which means that they can prove group membership and be ranked easily for security purposes. Some nodes will not need to hold the actual data but instead hold only identifiers as the existence of that data is guaranteed. And crucially, Data Chains will ultimately enable the secure republishing of data should the Network ever lose power, as well as providing validation that data has been stored on the Network.',
-            'We believe that Data Chains appear to be a natural progression for decentralised systems. They allow data of any type, size or format to be looked after and maintained in a secure and decentralised manner-in the sense of not only protecting physical data but also the validity of such data on the Network.'
+            'Так же, как блокчейн Биткойна не содержит биткойнов. Тем не менее, он предоставляет доказательства того, что часть данных существует и где она должна существовать. Важно, что с помощью SAFE Network идентифицированные данные являются реальными (документы, видео и т.д.). Это означает, что мы можем использовать этот идентификатор данных, чтобы доказать, что сами фактические данные являются действительными сетевыми данными (т.е. они были ранее приняты сетью).',
+            'Так что же такое архитектура цепочки данных? Представьте себе блок данных. Он содержит идентификаторы данных (например, хэш, имя, тип данных и т.д.). С этим блоком связана ссылка. Это связывает коллекцию подписей всех членов группы, которые согласны с тем, что данные в этом блоке верны. При каждом изменении членства в группе создается новая ссылка и добавляется в цепочку данных.',
+            'Есть еще много деталей о архитектуре, но в целом цепочка данных будет разрастаться по мере роста сети, в то время как коллективная запись останется доступной для всех узлов. Ссылки подтверждают членство и согласие, которое имело место в прошлом. Используя Цепочки данных, узлы имеют доказуемую историю в Сети, что означает, что они могут подтвердить членство в группе и легко ранжироваться в целях безопасности. Некоторые узлы не должны содержать фактические данные, а только идентификаторы, поскольку существование этих данных гарантировано. И, что особенно важно, Цепочки данных в конечном итоге обеспечат безопасное восстановление данных, в случае катаклизма, а также обеспечат проверку данных хранящихся в Сети.',
+            'Мы считаем, что цепочки данных кажутся естественным прогрессом для децентрализованных систем. Они позволяют просматривать и обрабатывать данные любого типа, размера или формата безопасным и децентрализованным образом - в смысле не только защиты физических данных, но и достоверности таких данных в Сети.'
           ]
         }
       ]
     },
     {
-      title: 'About Safecoin',
+      title: 'О Safecoin',
       items: [
         {
-          question: 'What is Safecoin?',
+          question: 'Что такое Safecoin?',
           answer: [
-            'Safecoin is a digital token that is generated automatically by the SAFE Network and stays on the SAFE Network. The Network will autonomously confirm account balances to Wallets and allow transactions to take place. Safecoin is transferred using the digital signature of the coin’s last owner. This operation is \'network atomic\'; in other words, the Network ensures that all copies update to reflect the transaction. This is a different approach to the blockchain mechanism employed in other projects, such as Bitcoin.'
+            'Safecoin - это цифровой токен, который автоматически генерируется сетью SAFE Network и остается в ней. Сеть будет автономно подтверждать остатки на счетах в кошельках и позволять совершать транзакции. Safecoin переводится с использованием цифровой подписи последнего владельца монеты. Эта операция является \’атомной сетью’\; другими словами, сеть гарантирует, что все копии обновляются, чтобы отразить транзакцию. Это другой подход к механизму блокчейна, который используется в других проектах, таких как Биткойн.'
           ]
         },
         {
-          question: 'What\'s the use of Safecoin in the SAFE Network?',
+          question: 'Как используется Safecoin в SAFE Network?',
           answer: [
-            'Safecoin is the currency of the SAFE Network. It is an incentive mechanism that rewards Users and developers, as well as providing access to network services.',
-            'Without any human intervention, the SAFE Network pays out Safecoin automatically to Farmers (users who join the Network by contributing their computing resources) and to Builders (application developers, who get paid automatically depending on how much their applications are used).',
-            'In addition, Core Developers who improve the core SAFE Network codebase can also earn Safecoin by providing bug fixes and new features.',
-            'Safecoin only lives on the SAFE Network. It is stored in a User\'s wallet and can be used to buy network services, such as increased storage space and access to network applications. There is no set distribution time for the 4.3 billion Safecoin produced during the life of the SAFE Network.'
+            'Safecoin - валюта SAFE Network . Это стимулирующий механизм, который поощряет пользователей и разработчиков, а также обеспечивает доступ к сетевым сервисам.',
+            'Без какого-либо вмешательства человека SAFE Network автоматически выплачивает Safecoin Фермерам (пользователям, которые присоединяются к сети, предоставляя свои вычислительные ресурсы) и строителям (разработчикам приложений, которым автоматически платят в зависимости от того, насколько используются их приложения).',
+            'Кроме того, разработчики ядра, которые улучшают базовую кодовую базу SAFE Network, также могут заработать Safecoin, предоставляя исправления ошибок и новые функции.',
+            'Safecoin живет только в SAFE Network . Он хранится в кошельке пользователя и может быть использован для покупки сетевых услуг, таких как увеличение места для хранения и доступ к сетевым приложениям. В SAFE Network может быть 4,3 млрд. Safecoin-ов, нет установленного времени их полного создания, всё автономно и зависит от спроса и предложения ресурсов в SAFE Network.'
           ]
         },
         {
-          question: 'How do I buy Safecoin?',
+          question: 'Как купить Safecoin?',
           answer: [
-            'Safecoin won’t be issued until the Network goes live so they cannot be purchased at the moment. Currently you can buy MaidSafeCoin which will be swapped on a 1-to-1 basis for Safecoin when released.',
-            'MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including:',
+            'Safecoin не будет выпущен до тех пор, пока Сеть не заработает, поэтому их нельзя купить в данный момент. В настоящее время вы можете купить MaidSafeCoin, который будет заменен на Safecoin 1 к 1 после его выпуска.',
+            'MaidSafeCoin указан в блокчейне Bitcoin и может быть приобретен на нескольких биржах, включая:',
             '- [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)'
           ]
         },
         {
-          question: 'Why not just use Bitcoin?',
+          question: 'Почему бы просто не использовать Биткойн?',
           answer: [
-            'Bitcoin is completely unrelated to the SAFE Network and cannot be generated or distributed by the SAFE Network. Safecoin is generated in response to network use (stored data being retrieved or apps are created) and is the digital currency of the SAFE Network.'
+            'Биткойн совершенно не связан с SAFE Network и не может быть сгенерирован или распространен SAFE Network. Safecoin генерируется в следствии использования сети (при сохранении, извлечении данных или создаются приложения) и является цифровой валютой SAFE Network.'
           ]
         },
         {
-          question: 'How is Safecoin valued?',
+          question: 'Как оценивается Safecoin?',
           answer: [
-            'The value of Safecoin will be set by the market. In other words, the demand to acquire Safecoin will be driven by the demand to buy things on the Network using Safecoin (e.g. other currency, products, services etc). Whilst simply viewing data on the Network will be free, Safecoin will be needed to buy distributed data storage and for communications. Farmers should earn more than enough Safecoin to enable them to use the Network. Those who earn more than they need will likely sell excess Safecoin to the exchanges.',
-            'It is worth noting that the generation and distribution of Safecoin will be entirely network-led, meaning that a great demand for Safecoin will result in a large volume being created, while low demand will lead to minimal coins being generated.'
+            'Цена Safecoin будет устанавливаться рынком. Другими словами, спрос на приобретение Safecoin будет зависеть от спроса на покупку чего-либо в Сети с использованием Safecoin (например, другую валюту, продукты, услуги и т.д.). Хотя простой просмотр данных в сети будет бесплатным, Safecoin понадобится для покупки распределенного хранилища данных и для анонимной коммуникации. Фермеры должны зарабатывать более чем достаточно Safecoin, чтобы позволить им использовать Сеть. Те, кто зарабатывает больше, чем им нужно, скорее всего, продадут избыточную Safecoin на биржи.',
+            'Стоит отметить, что генерация и распространение Safecoin будет полностью зависеть от сети, а это означает, что высокий спрос на Safecoin приведет к созданию большого объема, а низкий спрос приведет к минимальному генерированию монет.'
           ]
         },
         {
-          question: 'How is Safecoin distributed?',
+          question: 'Как распределён Safecoin?',
           answer: [
-            'The total number of Safecoin that can exist on the SAFE Network is 2^32, or just under 4.3 billion. 5% of that total has been allocated to compensate early investors who backed the Network development in the early days. A further 10% was sold to crowdsale participants in early 2014. They received MaidSafeCoin (a blockchain-based token that will be exchanged for Safecoin on a one-for-one ratio when the Network launches). At that stage, the holders can use Safecoin however they wish.',
-            'Beyond that, Safecoin will come into and go out of circulation in a continuous flow as follows:',
-            'All new Safecoin are generated as a part of the farming process and distributed to Farmers, App Builders and the Core Developer pool according to their individual algorithms, as described below.',
-            'Safecoin is distributed as the product of a successful “farming attempt.” The sequence leading up to a successful farming attempt starts when a Farmer’s Vault accurately delivers up stored data when the data is requested. When this is successfully done, the Vault seeks to qualify for a farming attempt. The chance of gaining a farming attempt is regulated by the network Farming Rate (FR) which prevails at that moment, and adjusts the ease or difficulty of gaining a farming attempt, depending on prevailing network conditions (availability or scarcity of storage resources).',
-            '\n*   Farmers qualify for farming attempts at 100% of the Farming Rate (FR) (as modified by Vault performance ranking).\n*   App Builders qualify for farming attempts at 10% of the FR\n*   The pool from which Core Developers are rewarded for their contributions qualifies for farming attempts at 5% of the FR.'
+            'Общее количество Safecoin, которое может существовать в SAFE Network , составляет 2^32, или чуть менее 4,3 миллиарда. 5% от этой суммы было выделено для компенсации ранним инвесторам, которые поддерживали развитие сети в первые дни. Еще 10% было продано участникам краудсейла в начале 2014 года. Они получили MaidSafeCoin (токен на основе блокчейна, который будет заменен на Safecoin в соотношении один к одному при запуске сети). На этом этапе держатели могут использовать Safecoin по своему усмотрению.',
+            'Кроме того, Safecoin будет входить и выходить из обращения непрерывным потоком следующим образом:',
+            'Все новые Safecoin генерируются как часть процесса фермерства и распространяются среди Фермеров, разработчиков приложений и разработчиков ядра в соответствии с их индивидуальными алгоритмами, как описано ниже.',
+            'Safecoin распространяется как продукт успешной “попытки фермерства“. Последовательность, приводящая к успешной попытке фермерства, начинается, когда Хранилище Фермера точно доставляет сохраненные данные при запросе данных. Когда это будет успешно сделано, Хранилище стремится претендовать на попытку фарма. Шанс на получение попытки фермерства регулируется сетевым коэффициентом фермерства (FR), который преобладает в данный момент, и регулирует легкость или сложность получения попытки фермерства в зависимости от преобладающих условий сети (доступность или нехватка ресурсов хранения).',
+            '\n*   Фермеры имеют право на попытки фермерства в размере 100% от скорости фермерской добычи (FR) (в зависимости от ранга Хранилища).\n*   Разработчики предложений имеют право на попытки фермерства в размере 10% от скорости фермерской добычи(FR).\n*   Общий запас, из которого основные разработчики ядра получают вознаграждение за свои вклады, может претендовать на попытки фермерства в размере 5% от скорости фермерской добычи(FR).'
           ]
         },
         {
-          question: 'What is MaidSafeCoin?',
+          question: 'Что такое MaidSafeCoin?',
           answer: [
-            'MaidSafeCoin is a proxy token that was released during MaidSafe\'s crowd sale and will be swapped for Safecoin on a 1:1 basis when Safecoin is released.',
-            'MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID) and [HitBTC](https://hitbtc.com/MAID-to-BTC).',
+            'MaidSafeCoin - это прокси-токен, который был выпущен во время публичных распродаж MaidSafe и будет заменен на Safecoin 1:1 при выпуске Safecoin.',
+            'MaidSafeCoin указан в блокчейне Bitcoin и может быть приобретен на нескольких биржах, включая [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID) и [HitBTC](https://hitbtc.com/MAID-to-BTC).',
           ]
         },
         {
-          question: 'How do I buy MaidSafeCoin?',
+          question: 'Как купить MaidSafeCoin?',
           answer: [
-            'In essence all we have to do is buy bitcoin and exchange it for MaidSafeCoin. There are a few simple steps required to do this.',
+            'По сути, все, что нам нужно сделать, это купить биткойны и обменять их на MaidSafeCoin. Вот несколько простых шагов, необходимых для этого:',
             '\n1.  Create an [OmniWallet](http://omniwallet.org/).\n2.  Purchase bitcoin using your preferred vendor.\n3.  Create a trade account on an exchange which lists MaidSafeCoin (e.g. on [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Send bitcoin to the trading account.\n5.  Trade bitcoin for MaidSafeCoin.\n6.  Withdraw / Transfer to OmniWallet.\n7.  MaidSafeCoin is now in your OmniWallet!'
           ]
         },
