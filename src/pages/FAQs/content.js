@@ -237,81 +237,81 @@
           question: 'Как купить MaidSafeCoin?',
           answer: [
             'По сути, все, что нам нужно сделать, это купить биткойны и обменять их на MaidSafeCoin. Вот несколько простых шагов, необходимых для этого:',
-            '\n1.  Create an [OmniWallet](http://omniwallet.org/).\n2.  Purchase bitcoin using your preferred vendor.\n3.  Create a trade account on an exchange which lists MaidSafeCoin (e.g. on [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Send bitcoin to the trading account.\n5.  Trade bitcoin for MaidSafeCoin.\n6.  Withdraw / Transfer to OmniWallet.\n7.  MaidSafeCoin is now in your OmniWallet!'
+            '\n1.  Создайте [OmniWallet](http://omniwallet.org/).\n2.  Купите биткойн у вашего предпочтительного продавца.\n3.  Создайте торговый счет на бирже, в которой перечислены MaidSafeCoin (например, на [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Отправьте биткойн на торговый счет.\n5.  Обменяйте биткойны на MaidSafeCoin.\n6.  Выведите средства / переведите в OmniWallet.\n7.  MaidSafeCoin теперь в вашем OmniWallet!'
           ]
         },
         {
-          question: 'Where can I store MaidSafeCoin?',
+          question: 'Где я могу хранить MaidSafeCoin?',
           answer: [
-            'As MaidSafeCoin is built using the Omni protocol on the Bitcoin blockchain, it can be stored in any wallet. They may not be visible within all wallet software (due to lack of Omni support) but the MaidSafeCoin will be OK there as long as your machine and private key for that address are secure and you will be able to view them using [omniexplorer.info](https://omniexplorer.info).',
-            'To create a new Omniwallet or open an existing one visit [omniwallet.org](https://www.omniwallet.org/).'
+            'Поскольку MaidSafeCoin построен с использованием протокола Omni на блокчейне Биткойн, его можно хранить в любом кошельке. Они могут быть не видны в программном обеспечении кошелька (из-за отсутствия поддержки Omni), но MaidSafeCoin будет в безопасности, пока ваш компьютер и личный ключ для этого адреса защищены. Вы сможете просмотреть их, используя [omniexplorer.info](https://omniexplorer.info).',
+            'Чтобы создать новый Omniwallet или открыть существующий, посетите [omniwallet.org](https://www.omniwallet.org/).'
           ]
         },
         {
-          question: 'How will MaidSafeCoin be converted to Safecoin?',
+          question: 'Как конвертировать MaidSafeCoin в Safecoin?',
           answer: [
-            'Once the SAFE Network goes live, MaidSafeCoin can be exchanged for Safecoin at a ratio of 1:1. This will probably be achieved by sending MaidSafeCoin to an unspendable address, thereby burning them. In return, an equal number of Safecoin will then be issued to the sender\'s User account on the SAFE Network.'
+            'Как только SAFE Network начнет работу официально, MaidSafeCoin можно обменять на Safecoin в соотношении 1: 1. Это, вероятно, будет достигнуто путем отправки MaidSafeCoin на адрес, с которого их будет нельзя тратить, тем самым сжигая их. В замен, равное количество Safecoin будет выдано соответному отправителю в SAFE Network.'
           ]
         }
       ]
     },
     {
-      title: 'About Farming',
+      title: 'О Фермерстве',
       items: [
         {
-          question: 'What is Farming?',
+          question: 'Что такое Фермерство?',
           answer: [
-            'Safecoin is given as an incentive to users for providing their resource to the network. This resource is their: storage space, CPU, bandwidth and online time that enable the encrypted chunks of network data to be stored and retrieved from their computer.',
-            'The process of providing resource and receiving Safecoin in return is called ‘Farming’.',
-            'Each piece of encrypted network data is stored in a Farmer\'s ‘Vault’, a data storage and management location on the Farmer\'s computer which they cannot read, or access. The SAFE Network is designed to self-manage these resources.'
+            'Safecoin предоставляется пользователям в качестве стимула для предоставления своих ресурсов сети. Этими ресурсами являются: пространство хранения, процессор- CPU, пропускную способность и время работы в сети, которые позволяют зашифрованным частям сетевых данных храниться и извлекаться с их компьютера.',
+            'Процесс предоставления ресурсов и получения Safecoin взамен называется ‘Фермерство‘.',
+            'Каждый фрагмент зашифрованных сетевых данных хранится в Хранилище фермера, месте хранения и управления данными на компьютере фермера, которые они не могут прочитать или получить к нему доступ. SAFE Network предназначена для самостоятельного (автономного) управления этими ресурсами.'
           ]
         },
         {
-          question: 'How will farming work in practice?',
+          question: 'Как будет работать Фермерство?',
           answer: [
-            'When a user of the network requests some data, for example by browsing a website, a number of things happen: First, the client software makes a request for the required data chunks. This message (a GET request) is then propagated across the Network and when the chunk is found there is a competition between the Vaults in that Section to deliver it to the Network where it will be routed back to the requester. The first Vault to deliver will have a chance of being rewarded with Safecoin. This is described as a Farming Attempt.',
-            'Farming Attempt means: by delivering data chunks when requested, a Vault occasionally gains the opportunity to make a Farming Attempt. This consists of sending a validated request to a random Safecoin address. If an owned Safecoin already exists at that address, the Attempt fails. If there is no Safecoin there, one is created and awarded to the requesting Vault (i.e. a successful Farming Attempt has been made).',
-            'Farming is therefore when a Vault delivers data chunks that it is storing to the network and earns Safecoin in return.',
-            'The probability of gaining a Farming Attempt is dependent on the farming rate, which is a variable related to the quantity of available storage resources in the Network.'
+            'Когда пользователь сети запрашивает некоторые данные, например, просматривая веб-сайт, происходит ряд вещей: во-первых, клиентское программное обеспечение делает запрос на требуемые порции данных. Это сообщение (запрос GET) затем распространяется по сети, и, когда фрагмент обнаружен, возникает конкуренция между хранилищами в этом разделе, чтобы доставить его в сеть, где оно будет перенаправлено обратно запрашивающей стороне. Первое Хранилище , которое доставит, получит шанс быть награжденным одной Safecoin. Это описано как попытка ведения Фермерство.',
+            'Попытка ведения Фермерство означает: доставляя блоки данных по запросу, Хранилище иногда получает возможность выполнить попытку ведения Фермерство. Это состоит из отправки подтвержденного запроса на случайный адрес Safecoin. Если уже существует Safecoin на этом адресе, попытка не удалась. Если там нет Safecoin, он создается и присуждается запрашивающему Хранилищу (т.е. была сделана успешная попытка ведения Фермерства).',
+            'Таким образом, Фермерство - это когда Хранилище доставляет куски данных, которые оно хранит в сети, и получает Safecoin в ответ.',
+            'Вероятность получения попытки ведения Фермерства зависит от farm_rate, которая является переменной, связанной с количеством доступных ресурсов хранения в сети.'
           ]
         },
         {
-          question: 'What is stopping a hosting provider from farming?',
+          question: 'Что остановит хостинг-провайдеров заниматься фермерством?',
           answer: [
-            'Nothing. Everyone is welcome to farm and thereby contribute to the network. To prevent centralisation, the use of one huge farming rig will be economically discouraged as compared to running multiple smaller nodes. The Safecoin earning algorithm is based on a Sigmoid curve, in that all Vaults earn, slowly at first and the rate increases as the Farmer stores up to the network average. The earning rate also takes into account the rank of the Vault, a process whereby the network scores the usefulness of each node from 0 (being the worst) to 1 (the best).',
-            'The Safecoin farming rate is ultimately the result of the network rate (a balance of the demand and supply on the network) multiplied by the Vault rank. The network rate will start to level at 20% above average, thus discouraging massive Vaults which would bring centralisation to the network’s farming process.'
+            'Ничего. Каждый может быть фермером и тем самым внести свой вклад в сеть. Чтобы предотвратить централизацию, использование одной огромной фермы будет экономически нецелесообразным по сравнению с использованием нескольких небольших ферм. Алгоритм заработка Safecoin основан на Сигмовидной кривой, в которой все Хранилища сначала зарабатывают медленно, но со временем заработок увеличивается т.к. нарастают сохранённые данные до среднего по сети. Коэффициент заработка также учитывает ранг Хранилища , при котором сеть оценивает полезность каждого узла от 0 (самый худший) до 1 (лучший).',
+            'Скорость заработка Safecoin-ов в конечном итоге является результатом скорости сети (баланса спроса и предложения в сети), умноженной на ранг Хранилища. Фермерская добыча достигнет до 20% выше среднего по сети, и тем самым обескуражит поддержку огромных Хранилищ, которые бы привели к централизации процесса фермерства в сети.'
           ]
         }
       ]
     },
     {
-      title: 'For Developers',
+      title: 'Для разработчиков',
       items: [
         {
-          question: 'What’s in it for developers?',
+          question: 'Сколько для разработчиков?',
           answer: [
-            '15% of all Safecoin earned will be allocated to the developer pool. This will ensure the developer community is highly motivated and rewarded for providing free-to-use applications as their revenue model. It is proposed that developers are able to use the SAFE Network to publish their applications. These application developers are called Builders and the network will reward use of these applications by paying the Builders in Safecoin based on the application use by users of the system. This is possible since the application developer can insert their own network immutable wallet address in their application. This creates a fully automatic revenue model for both open source projects, private individuals and application development companies. Developers who contribute code that enhances or fixes bugs in the SAFE Network that are accepted into the master branch of the codebase will also be able to earn Safecoin.',
-            'Reasons for developing on the SAFE Network:',
-            '\n*   Get your apps everywhere\n*   No API key—just download our code and start using it\n*   Extremely low customer acquisition costs and no infrastructure costs\n*   Apps that adapt in real-time to changes in demand\n*   Provide security, privacy and anonymity to all your users'
+            '15% всех заработанных Safecoin будут выделены в общий запас разработчиков. Это обеспечит высокий уровень мотивации сообщества разработчиков и наградит их за создание бесплатных приложений в качестве модели дохода. Предполагается, что разработчики могут использовать SAFE Network для публикации и своих приложений. Разработчики этих приложений называются строители, и сеть вознаградит за использование этих приложений, заплатив им Safecoin-ом на основании использования приложения пользователями системы. Это возможно, так как разработчик приложения может вставить свой сетевой адрес кошелька в свое приложение. Это создает полностью автоматическую модель дохода для проектов с открытым исходным кодом, так для частных лиц так и для компаний-разработчиков приложений. Разработчики, которые работают по коду, который предотвращает или исправляет ошибки в SAFE Network , которые примутся в ядро кода, также смогут зарабатывать Safecoin.',
+            'Основания для разработки в SAFE Network:',
+            '\n*   Доступ до ваших приложений отовсюду\n*   Нет ключа API - просто скачайте наш код и начните его использовать\n*   Чрезвычайно низкие затраты на привлечение клиентов и отсутствие затрат на инфраструктуру\n*   Приложения, которые в реальном времени адаптируются к изменениям спроса\n*   Обеспечить безопасность, конфиденциальность и анонимность для всех ваших пользователей'
           ]
         },
         {
-          question: 'As a developer how do I get involved?',
+          question: 'Как разработчик, как я могу принять участие?',
           answer: [
-            'On top of our informative and helpful [Dev Forum](https://forum.safedev.org/), the SAFE Network has a dedicated [developer hub](https://hub.safedev.org/) that is the hub for all development resources.',
-            '[Visit the DevHub](https://hub.safedev.org/)'
+            'Помимо нашего информативного и полезного [форума разработчиков](https://forum.safedev.org/), сеть SAFE Network имеет специальный [центр для разработчиков](https://hub.safedev.org/) который является центром для всех ресурсов разработки.',
+            '[Посетите DevHub](https://hub.safedev.org/)'
           ]
         },
         {
-          question: 'Why is the SAFE Network open source?',
+          question: 'Почему SAFE Network с открытым исходным кодом?',
           answer: [
-            'Because the SAFE Network has the potential to become a vital part of the lives of every connected person on the planet, MaidSafe are 100% committed to ensuring that all software is released under an open source licence. This encourages innovation and helps prevent any single person, company or organisation gaining control over the technology.'
+            'Поскольку SAFE Network потенциально может стать жизненно важной частью жизни каждого подключенного человека на планете, MaidSafe на 100% стремится обеспечить выпуск всего программного обеспечения по лицензии с открытым исходным кодом. Это поощряет инновации и помогает предотвратить контроль над технологией со стороны какого-либо отдельного человека, компании или организации.'
           ]
         },
         {
-          question: 'What open source licenses does the SAFE Network use?',
+          question: 'Какие лицензии с открытым исходным кодом использует SAFE Network?',
           answer: [
-            'All SAFE Network and MaidSafe code is made available under [GPLv3](https://www.gnu.org/licenses/gpl.html), [BSD](http://www.linfo.org/bsdlicense.html) or [MIT](https://opensource.org/licenses/MIT) license.'
+            'Весь код SAFE Network и MaidSafe доступно на условиях по лицензии [GPLv3](https://www.gnu.org/licenses/gpl.html), [BSD](http://www.linfo.org/bsdlicense.html) или [MIT](https://opensource.org/licenses/MIT).'
           ]
         }
       ]
