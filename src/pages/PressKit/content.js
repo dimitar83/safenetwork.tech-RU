@@ -1,73 +1,73 @@
 export default {
-  pageTitle: 'Press Kit',
+  pageTitle: 'Пресс-кит',
   copyText1: {
-    para: 'The SAFE Network is an open source, decentralised data and communications network that replaces data centres and servers with the spare computing resources of its users.',
-    buttonText: 'Copy Text Snippet'
+    para: 'SAFE Network - это децентрализованная сеть передачи данных и связи с открытым исходным кодом, которая заменяет центры обработки данных и серверы - резервными вычислительными ресурсами своих пользователей.',
+    buttonText: 'Скопировать фрагмент текста'
   },
   copyText2: {
-    title: 'Project Aims',
-    para: 'The SAFE Network aims to protect the World\'s data, providing privacy, security and freedom to everyone on the planet.',
-    buttonText: 'Copy Text Snippet'
+    title: 'Цели проекта',
+    para: 'SAFE Network направлена на защиту данных в мире, обеспечивая конфиденциальность, безопасность и свободу каждому на планете.',
+    buttonText: 'Скопировать фрагмент текста'
   },
   copyText3: {
-    title: 'About Safecoin',
-    para: 'Safecoin is the mechanism that incentivises the provision of resources by the network, measuring and rewarding value without waste. No proof of work, and no blockchain.',
-    buttonText: 'Copy Text Snippet'
+    title: 'О Safecoin',
+    para: 'Safecoin - это механизм, который стимулирует предоставление ресурсов сетью, измеряя и поощряя ценность без потерь. Никаких доказательств работы и блокчейна.',
+    buttonText: 'Скопировать фрагмент текста'
   },
   textSnippet1: {
-    title: 'What the SAFE Network means for Press Freedom',
+    title: 'Что означает безопасная сеть для свободы слова',
     para: [
-      'With its decentralised architecture and no central control, the SAFE Network is highly censorship-resistant. Content can be published instantly and anonymously without the knowledge of any third party. No more suppressing stories that need to be told, whilst the identity of the author, and any sources, can also be kept private.'
+      'Благодаря своей децентрализованной архитектуре и отсутствию центрального контроля SAFE Network обладает высокой степенью защиты от цензуры. Контент может быть опубликован мгновенно и анонимно без ведома третьих лиц. Больше нельзя скрывать истории, которые нужно рассказывать, при этом личность автора и любые источники также могут быть конфиденциальными.'
     ]
   },
   textSnippet2: {
-    title: 'New revenue stream',
+    title: 'Новый поток доходов',
     para: [
-      'In today\'s centralised web, monetising content relies on advertising, regardless of the cost to data privacy.',
-      'On the SAFE Network, monetisation will come from Safecoin. Content creators will be able to tag their content and optionally receive micropayments from content readers. In essence, a publishing service with a revenue stream built-in.'
+      'В современной централизованной сети монетизация контента зависит от рекламы, независимо от стоимости конфиденциальности данных.',
+      'В SAFE Network монетизация будет происходить из Safecoin. Создатели контента смогут отмечать свой контент и по желанию получать микроплатежи от читателей контента. По сути, издательский сервис со встроенным потоком доходов.'
     ]
   },
   interviewRequest: {
-    title: 'Interview Request',
+    title: 'Запрос интервью',
     para: [
-      'If you would like to write about us, feel free to get in touch via [pr@maidsafe.net](mailto:pr@maidsafe.net). This is obviously not a requirement, but we\'d be happy to answer any questions you might have and make time for an interview if required.'
+      'Если вы хотите написать о нас, свяжитесь с нами по адресу [pr@maidsafe.net](mailto:pr@maidsafe.net). Это, очевидно, не является обязательным требованием, но мы будем рады ответить на любые ваши вопросы и выделить время для собеседования, если потребуется.'
     ],
-    buttonText: 'Request Interview',
+    buttonText: 'Запросить интервью',
     toLink: 'mailto:pr@maidsafe.net'
   },
   techCrunch: {
-    para: '"...the literal opposite of fly-by-night crypto opportunists. They’ve been working on decentralized networking since long before the space became the hot, hyped thing it is now."'
+    para: '"...буквальная противоположность крипто-оппортунистам, работающим по ночам. Они работали над децентрализованным сетевым взаимодействием задолго до того, как пространство стало таким горячим, раскрученным, как сейчас."'
   },
   theGuardian: {
-    para: 'The punk rock internet—how DIY ​​rebels ​are working to ​replace the tech giants'
+    para: 'Панк-рок Интернет - как DIY (Do It Yourself) ​​повстанцы ​работают ​чтобы заменить технических гигантов'
   },
   spectrum: {
-    para: 'HBO\'s ‘Silicon Valley’ turns to real-world startup MaidSafe for its decentralized Internet'
+    para: '‘Силиконовая долина’ HBO превращается в реальный стартап MaidSafe для своего децентрализованного Интернета'
   },
   downloads: {
-    title: 'Downloads',
+    title: 'Скачать',
     logos: {
-      title: 'Logos',
-      para: 'Logo pack containing PNG, SVG and EPS formats, in Black or White versions.',
-      credit: 'SAFE Network logos by Dusan Sevarikaare licensed under [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
+      title: 'Логотипы',
+      para: 'Пакет логотипов, форматы PNG, SVG и EPS, в черном или белом вариантах.',
+      credit: 'Логотипы SAFE Network от Dusan Sevarika лицензированы в соответствии с [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
     },
     images: {
-      title: 'Image Pack',
-      para: 'Print ready editorial photographs and imagery, ready to be added to your piece.'
+      title: 'Пакет изображений',
+      para: 'Напечатайте готовые редакционные фотографии и изображения, готовые для добавления к вашему произведению.'
     },
     documents: {
-      title: 'Documents',
-      para: 'Whitepapers and more detailed reading on the SAFE Network.',
+      title: 'Документы',
+      para: 'Уайтэпаперс и более подробное прочтение о SAFE Network.',
       list: [
         {
           id: 'parsecWhitePaper',
-          title: 'PARSEC Whitepaper',
-          para: 'Get all the details on our highly asynchronous, Byzantine Fault Tolerant consensus mechanism.'
+          title: 'ПАРСЕК Уайтэпаперс',
+          para: 'Получите все подробности о нашем чрезвычайно асинхронном, Византийском механизме консенсуса.'
         },
         {
           id: 'primer',
-          title: 'SAFE Network Primer',
-          para: 'Community written, and very detailed introduction to the design and technology that underpins the SAFE Network.'
+          title: 'SAFE Network Руководство',
+          para: 'Написано сообществом, и очень подробное введение в дизайн и технологии, которые лежат в основе SAFE Network.'
         }
       ]
     }
